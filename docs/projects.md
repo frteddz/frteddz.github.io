@@ -6,12 +6,11 @@ Paste your project list here — one per line:
 Name | category | one-line description | link-or-tag
 ```
 
-## Categories (4)
+## Categories (3)
 
 1. Web Apps
 2. Tools
 3. Experiments
-4. Open Source
 
 ## Your projects
 

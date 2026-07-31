@@ -59,6 +59,32 @@ html[lang="ar"] {
 html {
   scroll-behavior: auto;
   -webkit-text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--nav-h) + 12px);
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--ink-2);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ink-2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--accent-strong), var(--accent-deep));
+  border-radius: 999px;
+  border: 2px solid var(--ink-2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-strong);
+}
+
+html[lang="ar"]::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--accent-strong), var(--accent-deep));
 }
 
 html.motion-ok {

@@ -100,15 +100,48 @@ window.SITE = {
       },
       {
         slug: "massage-site",
-        name: "Massage Site",
+        name: "Body Massage",
         url: "https://massage-site-rho.vercel.app/",
-        img: null,
+        img: { webp: "massage-site.webp", jpg: "massage-site.jpg" },
         desc: {
-          en: "Description coming soon — a web project in the works.",
-          ar: "الوصف قريبًا — مشروع ويب قيد التطوير.",
+          en: "Home service massage.",
+          ar: "تدليك بخدمة منزلية.",
         },
         tag: { en: "Web App", ar: "تطبيق ويب" },
-        alt: { en: "Massage Site — abstract placeholder", ar: "موقع التدليك — صورة تجريدية" },
+        alt: {
+          en: "Body Massage — home service massage, screenshot",
+          ar: "تدليك الجسم — خدمة تدليك منزلية، لقطة شاشة",
+        },
+      },
+      {
+        slug: "shalhome",
+        name: "ShalHome",
+        url: "https://shalhome.vercel.app/",
+        img: { webp: "shalhome.webp", jpg: "shalhome.jpg" },
+        desc: {
+          en: "A home of peace.",
+          ar: "منزل من السلام.",
+        },
+        tag: { en: "Web App", ar: "تطبيق ويب" },
+        alt: {
+          en: "ShalHome — a home of peace, screenshot",
+          ar: "ShalHome — منزل من السلام، لقطة شاشة",
+        },
+      },
+      {
+        slug: "staycation",
+        name: "A-J Staycation",
+        url: "https://staycation-airbnb.vercel.app/",
+        img: { webp: "staycation.webp", jpg: "staycation.jpg" },
+        desc: {
+          en: "S Residence Tower 1 · Pasay City.",
+          ar: "برج S Residence 1 · مدينة باساي.",
+        },
+        tag: { en: "Staycation", ar: "عطلة" },
+        alt: {
+          en: "A-J Staycation — S Residence Tower 1 · Pasay City, screenshot",
+          ar: "A-J Staycation — برج S Residence 1 · مدينة باساي، لقطة شاشة",
+        },
       },
     ],
     asset: [
@@ -116,13 +149,16 @@ window.SITE = {
         slug: "modrinth",
         name: "Modrinth Creator",
         url: "https://modrinth.com/user/teddz",
-        img: null,
+        img: { webp: "modrinth.webp", jpg: "modrinth.jpg" },
         desc: {
           en: "Developing highly optimized PvP resource packs and UI layouts focused on competitive visibility and frame-rate optimization.",
           ar: "تطوير حزم موارد PvP محسّنة بعناية وتخطيطات واجهات تركّز على الرؤية التنافسية وتحسين معدل الإطارات.",
         },
         tag: { en: "Texturing · Optimization", ar: "تلوين · تحسين" },
-        alt: { en: "Modrinth creator profile — abstract placeholder", ar: "ملف Modrinth — صورة تجريدية" },
+        alt: {
+          en: "Modrinth creator profile, screenshot",
+          ar: "ملف Modrinth، لقطة شاشة",
+        },
       },
     ],
     dev: [
@@ -130,13 +166,16 @@ window.SITE = {
         slug: "builtbybit",
         name: "BuiltByBit",
         url: "https://builtbybit.com/members/teddz.672080/",
-        img: null,
+        img: { webp: "builtbybit.webp", jpg: "builtbybit.jpg" },
         desc: {
           en: "Providing premium configuration services, custom setups, and administrative assets for community server networks.",
           ar: "تقديم خدمات إعدادات متميزة وتجهيزات مخصصة وأصول إدارية لشبكات سيرفرات المجتمعات.",
         },
         tag: { en: "Configurations", ar: "إعدادات" },
-        alt: { en: "BuiltByBit profile — abstract placeholder", ar: "ملف BuiltByBit — صورة تجريدية" },
+        alt: {
+          en: "BuiltByBit profile, screenshot",
+          ar: "ملف BuiltByBit، لقطة شاشة",
+        },
       },
       {
         slug: "fiverr",

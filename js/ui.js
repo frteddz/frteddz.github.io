@@ -249,6 +249,39 @@
     update();
   }
 
+  function initAutoplayVideos() {
+    var videos = Array.prototype.slice.call(document.querySelectorAll("video[autoplay]"));
+    if (!videos.length) return;
+
+    if (!motionOK) {
+      videos.forEach(function (v) { v.pause(); });
+      return;
+    }
+
+    var state = new WeakMap();
+
+    function toggle(v, play) {
+      if (state.get(v) === play) return;
+      state.set(v, play);
+      if (play) v.play().catch(function () {});
+      else v.pause();
+    }
+
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            toggle(entry.target, entry.isIntersecting);
+          });
+        },
+        { threshold: 0.15 }
+      );
+      videos.forEach(function (v) { io.observe(v); });
+    } else {
+      videos.forEach(function (v) { toggle(v, true); });
+    }
+  }
+
   function initYear() {
     document.querySelectorAll("[data-year]").forEach(function (el) {
       el.textContent = String(new Date().getFullYear());
@@ -264,6 +297,7 @@
     initMagnetic();
     initCursor();
     initParallax();
+    initAutoplayVideos();
     initYear();
   });
 })();

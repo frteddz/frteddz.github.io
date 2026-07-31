@@ -118,7 +118,9 @@
           </div>
         </div>
         <figure class="hero__media" data-parallax="0.08">
-          <img src="assets/images/hero.svg" alt="" data-intro fetchpriority="high" decoding="async" width="1600" height="1000">
+          <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="assets/images/hero/hero-poster.webp" aria-hidden="true" tabindex="-1">
+            <source src="assets/images/hero/video-hero1.mp4" type="video/mp4">
+          </video>
           <span class="hero__chip" data-intro>Euthenia Studio</span>
         </figure>
       </div>
@@ -150,7 +152,9 @@
       <div class="container about__grid">
         <figure class="about__media" data-parallax="0.05">
           <div class="about__media-frame" data-reveal="left">
-            <img src="assets/images/about.svg" alt="" loading="lazy" decoding="async" width="900" height="1100">
+            <video class="about__video" autoplay muted loop playsinline preload="metadata" poster="assets/images/about.webp" aria-hidden="true" tabindex="-1">
+              <source src="assets/images/hero/video-hero2.mp4" type="video/mp4">
+            </video>
           </div>
           <figcaption class="about__media-note">Euthenia Studio</figcaption>
         </figure>
@@ -258,7 +262,7 @@
           <header class="cat__head">
             <span class="cat__index" aria-hidden="true">01</span>
             <h3 class="cat__title" data-i18n="cat.web">Web Projects</h3>
-            <span class="cat__meta"><strong>6</strong> <span data-i18n="cat.count">projects</span></span>
+            <span class="cat__meta"><strong>8</strong> <span data-i18n="cat.count">projects</span></span>
           </header>
           <div class="cat__grid" data-reveal-group data-reveal>
             <article class="project" data-project="crashout">
@@ -347,15 +351,52 @@
             </article>
 
             <article class="project" data-project="massage-site">
-              <div class="project__media">
-                <img src="assets/images/projects/massage-site.svg" alt="Massage Site — abstract placeholder" loading="lazy" decoding="async">
-              </div>
+              <a class="project__media" href="https://massage-site-rho.vercel.app/" target="_blank" rel="noopener">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/projects/massage-site.webp">
+                  <img src="assets/images/projects/massage-site.jpg" alt="Body Massage — home service massage, screenshot" loading="lazy" decoding="async">
+                </picture>
+              </a>
               <div class="project__body">
-                <h4 class="project__name">Massage Site</h4>
-                <p class="project__desc" data-project-desc>Description coming soon — a web project in the works.</p>
+                <h4 class="project__name">Body Massage</h4>
+                <p class="project__desc" data-project-desc>Home service massage.</p>
                 <div class="project__foot">
                   <span class="chip" data-project-tag>Web App</span>
                   <a class="project__link" href="https://massage-site-rho.vercel.app/" target="_blank" rel="noopener"><span data-i18n="link.open">Open</span> <span class="btn__arrow" aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project" data-project="shalhome">
+              <a class="project__media" href="https://shalhome.vercel.app/" target="_blank" rel="noopener">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/projects/shalhome.webp">
+                  <img src="assets/images/projects/shalhome.jpg" alt="ShalHome — a home of peace, screenshot" loading="lazy" decoding="async">
+                </picture>
+              </a>
+              <div class="project__body">
+                <h4 class="project__name">ShalHome</h4>
+                <p class="project__desc" data-project-desc>A home of peace.</p>
+                <div class="project__foot">
+                  <span class="chip" data-project-tag>Web App</span>
+                  <a class="project__link" href="https://shalhome.vercel.app/" target="_blank" rel="noopener"><span data-i18n="link.open">Open</span> <span class="btn__arrow" aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project" data-project="staycation">
+              <a class="project__media" href="https://staycation-airbnb.vercel.app/" target="_blank" rel="noopener">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/projects/staycation.webp">
+                  <img src="assets/images/projects/staycation.jpg" alt="A-J Staycation — S Residence Tower 1 · Pasay City, screenshot" loading="lazy" decoding="async">
+                </picture>
+              </a>
+              <div class="project__body">
+                <h4 class="project__name">A-J Staycation</h4>
+                <p class="project__desc" data-project-desc>S Residence Tower 1 · Pasay City.</p>
+                <div class="project__foot">
+                  <span class="chip" data-project-tag>Staycation</span>
+                  <a class="project__link" href="https://staycation-airbnb.vercel.app/" target="_blank" rel="noopener"><span data-i18n="link.open">Open</span> <span class="btn__arrow" aria-hidden="true">↗</span></a>
                 </div>
               </div>
             </article>
@@ -374,7 +415,10 @@
           <div class="cat__grid" data-reveal-group data-reveal>
             <article class="project" data-project="modrinth">
               <a class="project__media" href="https://modrinth.com/user/teddz" target="_blank" rel="noopener">
-                <img src="assets/images/projects/modrinth.svg" alt="Modrinth creator profile — abstract placeholder" loading="lazy" decoding="async">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/projects/modrinth.webp">
+                  <img src="assets/images/projects/modrinth.jpg" alt="Modrinth creator profile, screenshot" loading="lazy" decoding="async">
+                </picture>
               </a>
               <div class="project__body">
                 <h4 class="project__name">Modrinth Creator</h4>
@@ -400,7 +444,10 @@
           <div class="cat__grid" data-reveal-group data-reveal>
             <article class="project" data-project="builtbybit">
               <a class="project__media" href="https://builtbybit.com/members/teddz.672080/" target="_blank" rel="noopener">
-                <img src="assets/images/projects/builtbybit.svg" alt="BuiltByBit profile — abstract placeholder" loading="lazy" decoding="async">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/projects/builtbybit.webp">
+                  <img src="assets/images/projects/builtbybit.jpg" alt="BuiltByBit profile, screenshot" loading="lazy" decoding="async">
+                </picture>
               </a>
               <div class="project__body">
                 <h4 class="project__name">BuiltByBit</h4>

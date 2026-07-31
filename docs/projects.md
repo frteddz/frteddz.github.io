@@ -32,6 +32,9 @@ Name | category | one-line description | link-or-tag
 
 - https://mghac.vercel.app/index.html
 
+- https://shalhome.vercel.app/ (New)
+
+- https://staycation-airbnb.vercel.app/ (New)
 
 ## Here are some info of the links i provided:
 

@@ -1201,6 +1201,10 @@ html[dir="rtl"] .project__link:hover .btn__arrow {
     display: none;
   }
 
+  .hero__ribbon {
+    display: none;
+  }
+
   .hero__actions {
     flex-direction: column;
     align-items: stretch;

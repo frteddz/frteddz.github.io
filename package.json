@@ -1,0 +1,12 @@
+{
+  "name": "teddz-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teddz — bilingual portfolio for a web developer and one-person studio",
+  "scripts": {
+    "dev": "serve . -l 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}

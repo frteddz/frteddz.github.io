@@ -18,12 +18,14 @@
         "aria-label",
         window.SITE.t[document.documentElement.lang][open ? "nav.close" : "nav.menu"]
       );
+      document.body.classList.toggle("nav-open", open);
     });
 
     links.querySelectorAll("a").forEach(function (link) {
       link.addEventListener("click", function () {
         links.classList.remove("open");
         toggle.setAttribute("aria-expanded", "false");
+        document.body.classList.remove("nav-open");
       });
     });
   }
@@ -220,12 +222,14 @@
   }
 
   function initParallax() {
+    if (window.innerWidth < 768) return;
     var targets = document.querySelectorAll("[data-parallax]");
     if (!targets.length || !motionOK) return;
 
     var ticking = false;
 
     function update() {
+      if (window.innerWidth < 768) return;
       var vh = window.innerHeight;
       targets.forEach(function (el) {
         var factor = parseFloat(el.getAttribute("data-parallax")) || 0.1;

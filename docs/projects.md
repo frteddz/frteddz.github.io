@@ -1,146 +1,54 @@
 # Projects
 
-Paste your project list here — one per line:
-
 ```
 Name | category | one-line description | link-or-tag
 ```
 
-## Categories (3)
+## Web Projects (32)
 
-1. Web Apps
-2. Tools
-3. Experiments
+- CrashOUT — A web game site — https://dont-crashout.vercel.app/
+- AetherCoreMc — Minecraft utility hub with 15+ utilities — https://aethercoremc.vercel.app/
+- A Random Website — 99+ random addictive mini games — https://a-random-website.vercel.app/
+- Euthenia Studio — Personal software studio, privacy-first tools — https://frteddz.github.io/Euthenia-Studio-Website/
+- MGHAC — Community-based agriculture cooperative — https://mghac.vercel.app/index.html
+- Body Massage — Home service massage — https://massage-site-rho.vercel.app/
+- ShalHome — A home of peace — https://shalhome.vercel.app/
+- A-J Staycation — S Residence Tower 1, Pasay City — https://staycation-airbnb.vercel.app/
+- JUNO — Terminal assistant, local-first, optional DeepSeek AI — https://frteddz.github.io/JUNO/
+- Cedrus CLI — Turns web AI into a coding agent in your terminal — https://frteddz.github.io/cedrus/
+- Cedrus Site — AI assistant showcase — https://frteddz.github.io/cedrus-site/
+- Kilter — Falling block puzzle game — https://frteddz.github.io/Kilter-web/
+- SpinDeck — Spinner and roulette tool — https://frteddz.github.io/SpinDeck-web/
+- ToneTrail — Tone and sound exploration tool — https://frteddz.github.io/ToneTrail-web/
+- StarMap — Night sky poster generator — https://frteddz.github.io/StarMap-web/
+- PopCluster — Bubble cluster popping game — https://frteddz.github.io/PopCluster-web/
+- SoundLayers — Audio layering tool — https://frteddz.github.io/SoundLayers-web/
+- ClueGrid — Word puzzle game — https://frteddz.github.io/ClueGrid-web/
+- FlowState — Flow state game — https://frteddz.github.io/FlowState-web/
+- TriviaVoyager — Trivia quiz game — https://frteddz.github.io/TriviaVoyager-web/
+- LastSignal — Space-themed game — https://frteddz.github.io/LastSignal-web/
+- PixelStudio — Browser-based pixel art editor — https://frteddz.github.io/PixelStudio-web/
+- PixelShrink — Free batch image compression tool — https://frteddz.github.io/PixelShrink-web/
+- StudyFlow — Free modern study planner — https://frteddz.github.io/StudyFlow-web/
+- QRFlow — Free QR code generator and scanner — https://frteddz.github.io/QRFlow-web/
+- QuickRename — Free bulk file renaming utility — https://frteddz.github.io/QuickRename-web/
+- PngForge — Free online image converter — https://frteddz.github.io/PngForge-web/
+- FolderScope — Free disk usage visualizer — https://frteddz.github.io/FolderScope-web/
+- PDFMerge — Free online PDF toolkit — https://frteddz.github.io/PDFMerge-web/
+- ColorSnap — Free professional color picker — https://frteddz.github.io/ColorSnap-web/
+- BackupBuddy — Free browser-based backup utility — https://frteddz.github.io/BackupBuddy-web/
+- ClipVault — Free clipboard history manager — https://frteddz.github.io/ClipVault-web/
 
-## Your projects
+## Asset Design (1)
 
+- Modrinth Creator — Optimized PvP resource packs and UI layouts — https://modrinth.com/user/teddz
 
-- https://massage-site-rho.vercel.app/
+## Dev Services (2)
 
-- https://frteddz.github.io/Euthenia-Studio-Website/#
+- BuiltByBit — Premium configuration services for server networks — https://builtbybit.com/members/teddz.672080/
+- Fiverr — Freelance development shop (configurations, custom setups)
 
-- https://dont-crashout.vercel.app/
+## Content & Media (2)
 
-- https://aethercoremc.vercel.app/
-
-- https://a-random-website.vercel.app/
-
-- https://modrinth.com/user/teddz
-
-- https://builtbybit.com/members/teddz.672080/
-
-- https://mghac.vercel.app/index.html
-
-- https://shalhome.vercel.app/ (New)
-
-- https://staycation-airbnb.vercel.app/ (New)
-
-## Here are some info of the links i provided:
-
-
-CrashOUT
-Live
-
-The description is basically in the name.
-GameWeb
-Play CrashOUT →
-AetherCoreMc
-Live
-
-A Minecraft utility hub with 15+ utilities.
-MinecraftUtilitiesHub
-Visit AetherCoreMc →
-A Random Website
-Live
-
-A website that has 99+ random addictive mini games.
-GamesWebMini Games
-Play Now →
-Asset & Resource Design
-
-Developing highly optimized PvP resource packs and UI layouts focused on competitive visibility and frame-rate optimization.
-Modrinth CreatorTexturingOptimization
-View Modrinth Profile →
-Development & Freelance Services
-
-Providing premium configuration services, custom setups, and administrative assets for community server networks.
-BuiltByBitFiverr ProConfigurations
-BuiltByBit
-Fiverr Shop
-Content & Media Creation
-
-Producing fast-paced video content, clip pacing templates, and gaming media across short-form and long-form platforms.
-YouTubeTikTok ContentVideo Editing
-YouTube Channel
-TikTok
-
-
-
-
-About MGHAC
-
-Cultivating Sustainable Communities. Empowering Farmers. Inspiring the Next Generation.
-
-Mabuhay Golden Harvest Agriculture Cooperative (MGHAC) is a community-based agricultural cooperative committed to building a more sustainable, resilient, and prosperous future for Filipino farmers, youth, and rural communities.
-
-Founded on the principles of cooperation, environmental stewardship, and inclusive development, MGHAC serves as a catalyst for agricultural innovation by integrating organic farming, permaculture, climate-smart agriculture, livestock production, food security, community enterprise, and youth empowerment into one unified ecosystem.
-
-We believe that agriculture is more than food production — it is a pathway to healthier communities, stronger local economies, and a better future for generations to come.
-Chicken coop and livestock farming
-Our Mission
-
-To empower farmers, youth, and communities through sustainable agriculture, cooperative enterprise, education, and innovative technologies that improve livelihoods while protecting the environment.
-Our Vision
-
-To become one of the Philippines' leading models of sustainable agriculture and cooperative development, where communities thrive through innovation, environmental responsibility, and shared prosperity.
-Our Partners
-
-Collaborating with national agencies, local governments, and development organizations
-Department of Agriculture
-
-National agriculture agency partner — RFO IV-A (CALABARZON)
-Cooperative Development Authority
-
-Cooperative regulatory and development authority
-TESDA
-
-Skills training partner — Rizal Provincial Office
-Agricultural Training Institute
-
-Agriculture training partner — ATI CALABARZON
-Philippine Coconut Authority
-
-Coconut agroforestry and farm resilience partner — Region IV-A
-Local Government Units
-
-Local governance partners — Baras, Morong, Angono, Rizal
-Department of Labor & Employment
-
-Labor and employment partner
-DSWD
-
-Social welfare partner — Field Office IV-A (CALABARZON)
-DOST — Rizal
-
-Technology partner — SETUP Program essential oil production
-
-
-
-About
-A One-Person Studio
-
-Euthenia Studio is my personal software studio — a place to publish the tools and projects I build. Everything here is made by me, Teddz, one developer at a time.
-
-I believe software should be simple, fast, and respect your privacy. If you have a project you'd like to publish under Euthenia Studio, my inbox is open at .
-Built by One Dev
-
-Euthenia Studio is a one-person software studio. Every project is crafted with care by Teddz.
-Privacy First
-
-All tools run entirely in your browser. No data is ever sent to a server.
-Open to Contributors
-
-Want to publish your project here? Email me — let's build something together.
-Always Free at Core
-
-The essential features of every tool are free forever. No paywalls, no tricks.
+- YouTube — Fast-paced video content and gaming media — https://www.youtube.com/@frteddz
+- TikTok — Gaming media and short-form content — https://www.tiktok.com/@teddz.fr

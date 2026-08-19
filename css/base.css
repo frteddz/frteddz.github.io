@@ -65,7 +65,7 @@
   --ease-smooth: cubic-bezier(0.23, 1, 0.32, 1);
 
   /* ── layout ── */
-  --max-w: 882px;
+  --max-w: 960px;
   --gutter: clamp(20px, 4vw, 48px);
   --nav-h: 56px;
 }
@@ -81,6 +81,8 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+  overflow-x: clip;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }

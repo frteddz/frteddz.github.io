@@ -69,21 +69,6 @@ window.SITE = {
         },
       },
       {
-        slug: "euthenia-studio",
-        name: "Euthenia Studio",
-        url: "https://frteddz.github.io/Euthenia-Studio-Website/#",
-        img: { webp: "euthenia-studio.webp", jpg: "euthenia-studio.jpg" },
-        desc: {
-          en: "My personal software studio - simple, fast, privacy-first tools built by one dev.",
-          ar: "استوديو البرمجيات الشخصي الخاص بي - أدوات بسيطة وسريعة وخصوصية أولًا، من صنع مطوّر واحد.",
-        },
-        tag: { en: "One-Person Studio", ar: "استوديو فردي" },
-        alt: {
-          en: "Euthenia Studio - personal software studio, screenshot",
-          ar: "استوديو Euthenia - استوديو برمجيات شخصي، لقطة شاشة",
-        },
-      },
-      {
         slug: "mghac",
         name: "Mabuhay Golden Harvest Agriculture Cooperative",
         url: "https://mghac.vercel.app/index.html",
@@ -186,156 +171,6 @@ window.SITE = {
         alt: {
           en: "Cedrus - AI in the terminal, screenshot",
           ar: "Cedrus - ذكاء اصطناعي في الطرفية، لقطة شاشة",
-        },
-      },
-      {
-        slug: "kilter",
-        name: "Kilter",
-        url: "https://frteddz.github.io/Kilter-web/",
-        img: { webp: "kilter.webp", jpg: "kilter.jpg" },
-        desc: {
-          en: "A falling block puzzle game by Euthenia Studio.",
-          ar: "لعبة ألغازسقط كتل من إنتاج Euthenia Studio.",
-        },
-        tag: { en: "Puzzle Game", ar: "لعبة ألغاز" },
-        alt: {
-          en: "Kilter - falling block puzzle game, screenshot",
-          ar: "Kilter - لعبة ألغاز سقط كتل، لقطة شاشة",
-        },
-      },
-      {
-        slug: "spindeck",
-        name: "SpinDeck",
-        url: "https://frteddz.github.io/SpinDeck-web/",
-        img: { webp: "spindeck.webp", jpg: "spindeck.jpg" },
-        desc: {
-          en: "A spinner and roulette tool by Euthenia Studio.",
-          ar: "أداة دوران ودولاب حظ من إنتاج Euthenia Studio.",
-        },
-        tag: { en: "Spinner", ar: "أداة دوران" },
-        alt: {
-          en: "SpinDeck - spinner and roulette tool, screenshot",
-          ar: "SpinDeck - أداة دوران ودولاب حظ، لقطة شاشة",
-        },
-      },
-      {
-        slug: "tonetrail",
-        name: "ToneTrail",
-        url: "https://frteddz.github.io/ToneTrail-web/",
-        img: { webp: "tonetrail.webp", jpg: "tonetrail.jpg" },
-        desc: {
-          en: "A tone and sound exploration tool by Euthenia Studio.",
-          ar: "أداة استكشاف النغمات والأصوات من إنتاج Euthenia Studio.",
-        },
-        tag: { en: "Sound Tool", ar: "أداة صوت" },
-        alt: {
-          en: "ToneTrail - tone and sound exploration tool, screenshot",
-          ar: "ToneTrail - أداة استكشاف النغمات والأصوات، لقطة شاشة",
-        },
-      },
-      {
-        slug: "starmap",
-        name: "StarMap",
-        url: "https://frteddz.github.io/StarMap-web/",
-        img: { webp: "starmap.webp", jpg: "starmap.jpg" },
-        desc: {
-          en: "Night sky poster generator by Euthenia Studio.",
-          ar: "مُولّد ملصقات سماء ليلية من إنتاج Euthenia Studio.",
-        },
-        tag: { en: "Poster Generator", ar: "مُولّد ملصقات" },
-        alt: {
-          en: "StarMap - night sky poster generator, screenshot",
-          ar: "StarMap - مُولّد ملصقات سماء ليلية، لقطة شاشة",
-        },
-      },
-      {
-        slug: "popcluster",
-        name: "PopCluster",
-        url: "https://frteddz.github.io/PopCluster-web/",
-        img: { webp: "popcluster.webp", jpg: "popcluster.jpg" },
-        desc: {
-          en: "A bubble cluster popping game by Euthenia Studio.",
-          ar: "لعبة فقاعات من إنتاج Euthenia Studio.",
-        },
-        tag: { en: "Bubble Game", ar: "لعبة فقاعات" },
-        alt: {
-          en: "PopCluster - bubble cluster popping game, screenshot",
-          ar: "PopCluster - لعبة فقاعات، لقطة شاشة",
-        },
-      },
-      {
-        slug: "soundlayers",
-        name: "SoundLayers",
-        url: "https://frteddz.github.io/SoundLayers-web/",
-        img: { webp: "soundlayers.webp", jpg: "soundlayers.jpg" },
-        desc: {
-          en: "An audio layering tool by Euthenia Studio.",
-          ar: "أداة طبقة صوتية من إنتاج Euthenia Studio.",
-        },
-        tag: { en: "Audio Tool", ar: "أداة صوتية" },
-        alt: {
-          en: "SoundLayers - audio layering tool, screenshot",
-          ar: "SoundLayers - أداة طبقة صوتية، لقطة شاشة",
-        },
-      },
-      {
-        slug: "cluegrid",
-        name: "ClueGrid",
-        url: "https://frteddz.github.io/ClueGrid-web/",
-        img: { webp: "cluegrid.webp", jpg: "cluegrid.jpg" },
-        desc: {
-          en: "A word puzzle game by Euthenia Studio.",
-          ar: "لعبة ألغاز كلمات من إنتاج Euthenia Studio.",
-        },
-        tag: { en: "Word Puzzle", ar: "لغز كلمات" },
-        alt: {
-          en: "ClueGrid - word puzzle game, screenshot",
-          ar: "ClueGrid - لعبة ألغاز كلمات، لقطة شاشة",
-        },
-      },
-      {
-        slug: "flowstate",
-        name: "FlowState",
-        url: "https://frteddz.github.io/FlowState-web/",
-        img: { webp: "flowstate.webp", jpg: "flowstate.jpg" },
-        desc: {
-          en: "A flow state game by Euthenia Studio.",
-          ar: "لعبة حالة التدفق من إنتاج Euthenia Studio.",
-        },
-        tag: { en: "Flow Game", ar: "لعبة تدفق" },
-        alt: {
-          en: "FlowState - flow state game, screenshot",
-          ar: "FlowState - لعبة حالة التدفق، لقطة شاشة",
-        },
-      },
-      {
-        slug: "triviavoyager",
-        name: "TriviaVoyager",
-        url: "https://frteddz.github.io/TriviaVoyager-web/",
-        img: { webp: "triviavoyager.webp", jpg: "triviavoyager.jpg" },
-        desc: {
-          en: "A trivia quiz game by Euthenia Studio.",
-          ar: "لعبة أسئلة معلومات عامة من إنتاج Euthenia Studio.",
-        },
-        tag: { en: "Trivia Quiz", ar: "أسئلة معلومات" },
-        alt: {
-          en: "TriviaVoyager - trivia quiz game, screenshot",
-          ar: "TriviaVoyager - لعبة أسئلة معلومات عامة، لقطة شاشة",
-        },
-      },
-      {
-        slug: "lastsignal",
-        name: "LastSignal",
-        url: "https://frteddz.github.io/LastSignal-web/",
-        img: { webp: "lastsignal.webp", jpg: "lastsignal.jpg" },
-        desc: {
-          en: "A space-themed game by Euthenia Studio.",
-          ar: "لعبة فضائية من إنتاج Euthenia Studio.",
-        },
-        tag: { en: "Space Game", ar: "لعبة فضائية" },
-        alt: {
-          en: "LastSignal - space-themed game, screenshot",
-          ar: "LastSignal - لعبة فضائية، لقطة شاشة",
         },
       },
       {
@@ -605,7 +440,7 @@ window.SITE = {
       "m8": "Clean Code",
       "about.eyebrow": "About",
       "about.title": "Software that respects the person using it.",
-      "about.body1": "Euthenia Studio is my personal software studio - a place to publish the tools and projects I build. Everything here is made by me, Teddz, one developer at a time.",
+      "about.body1": "This is my personal portfolio - a place to publish the tools and projects I build. Everything here is made by me, Teddz, one developer at a time.",
       "about.body2": "I believe software should be simple, fast, and respect your privacy.",
       "v1.t": "Built by One Dev",
       "v1.d": "Every project is crafted by Teddz - one developer, from idea to launch.",
@@ -671,7 +506,7 @@ window.SITE = {
       "m8": "كود نظيف",
       "about.eyebrow": "من أنا",
       "about.title": "برمجيات تحترم من يستخدمها.",
-      "about.body1": "استوديو Euthenia هو استوديو البرمجيات الشخصي الخاص بي - مكان أنشر فيه الأدوات والمشاريع التي أبنيها. كل شيء هنا صنعه أنا، Teddz، مطوّرًا واحدًا في كل مرة.",
+      "about.body1": "هذه هي صفحتي الشخصية - مكان أنشر فيه الأدوات والمشاريع التي أبنيها. كل شيء هنا صنعه أنا، Teddz، مطوّرًا واحدًا في كل مرة.",
       "about.body2": "أؤمن أن البرمجيات يجب أن تكون بسيطة وسريعة وتحترم خصوصيتك.",
       "v1.t": "من صنع مطوّر واحد",
       "v1.d": "كل مشروع يصنعه Teddz - مطوّر واحد، من الفكرة حتى الإطلاق.",

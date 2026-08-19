@@ -1,117 +1,110 @@
+/* ============================================================
+   BASE.CSS - Dark Perry Wang tokens, glass scale, type, reset
+   ============================================================ */
+
 :root {
-  --background: #f8f7f5;
-  --on-background: #101010;
-  --on-background-2: #1c1c1c;
-  --surface: #ffffff;
-  --surface-2: #f2f1ef;
-  --card: #101010;
-  --card-text: #f2f2f2;
-  --card-text-muted: #a0a0a0;
-  --border: #e5e5e3;
-  --border-strong: #d0d0cc;
-  --border-glass: #f2f2f226;
-  --border-glass-strong: #f2f2f24d;
-  --line: #e0dfdc;
-  --text-primary: #101010;
-  --text-secondary: #555550;
-  --text-muted: #8a8a85;
-  --accent: #101010;
-  --accent-glow: rgba(16, 16, 16, 0.08);
-  --overlay: rgba(248, 247, 245, 0.8);
+  /* ── palette ── */
+  --background: #101010;
+  --on-background: #f2f2f2;
 
-  --font-display: "Manrope", "Cairo", system-ui, sans-serif;
+  /* ── glass alpha scale ── */
+  --glass-005: #f2f2f20d;
+  --glass-010: #f2f2f21a;
+  --glass-015: #f2f2f226;
+  --glass-020: #f2f2f233;
+  --glass-030: #f2f2f24d;
+  --glass-040: #f2f2f266;
+  --glass-050: #f2f2f280;
+
+  /* ── surfaces ── */
+  --card-bg: #252525;
+  --card-border: #3d3d3d;
+  --surface-raised: #1a1a1a;
+
+  /* ── text ── */
+  --text-primary: var(--on-background);
+  --text-muted: var(--glass-050);
+  --text-dim: var(--glass-040);
+
+  /* ── accents ── */
+  --dot-red: #f46b5d;
+  --dot-yellow: #f9bd4e;
+  --dot-green: #57c353;
+
+  /* ── fonts ── */
+  --font-display: "Albert Sans", "Inter", "Cairo", system-ui, -apple-system, sans-serif;
+  --font-serif: "Gloock", "Georgia", serif;
+  --font-mono: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
   --font-body: "Inter", "Cairo", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", "SF Mono", monospace;
 
-  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
-  --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+  /* ── type scale (px) ── */
+  --text-hero: 80;
+  --text-h1: 48;
+  --text-h2: 32;
+  --text-h3: 24;
+  --text-h4: 20;
+  --text-body: 16;
+  --text-body-sm: 14;
+  --text-caption: 12;
 
-  --nav-h: 64px;
-
-  --space-1: 8px;
-  --space-2: 16px;
-  --space-3: 24px;
-  --space-4: 32px;
-  --space-5: 40px;
-  --space-6: 48px;
-  --space-7: 64px;
-  --space-8: 96px;
-  --space-9: 128px;
-
+  /* ── radii ── */
   --radius: 24px;
   --radius-inner: 16px;
   --radius-sm: 12px;
   --radius-pill: 999px;
 
-  --max-w: 1200px;
+  /* ── shadows ── */
+  --shadow-window: inset 0 0 8px #0006, 0 0 60px #0003, 0 30px 120px #000c;
+  --shadow-card: 0 40px 80px #00000080;
+  --shadow-pill: 0 10px 25px #00000026;
+  --shadow-pill-hover: 0 15px 40px #0000004d;
+
+  /* ── easing ── */
+  --ease-out: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-smooth: cubic-bezier(0.23, 1, 0.32, 1);
+
+  /* ── layout ── */
+  --max-w: 882px;
   --gutter: clamp(20px, 4vw, 48px);
-
-  --shadow-subtle: 0 2px 8px rgba(0, 0, 0, 0.04);
-  --shadow-card: 0 8px 32px -8px rgba(0, 0, 0, 0.08);
-  --shadow-lift: 0 24px 48px -16px rgba(0, 0, 0, 0.12);
-  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.03);
+  --nav-h: 56px;
 }
 
-html[lang="ar"] {
-  --font-display: "Cairo", "Manrope", system-ui, sans-serif;
-  --font-body: "Cairo", "Inter", system-ui, sans-serif;
-}
-
+/* ── reset ── */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: auto;
-  -webkit-text-size-adjust: 100%;
-  scroll-padding-top: calc(var(--nav-h) + 12px);
-  scrollbar-width: thin;
-  scrollbar-color: var(--border-strong) var(--surface-2);
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--surface-2);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--border-strong);
-  border-radius: 999px;
-  border: 2px solid var(--surface-2);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--text-muted);
-}
-
-html.motion-ok {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
-  font-family: var(--font-body);
-  font-size: 1rem;
-  line-height: 1.6;
+  background: var(--background);
   color: var(--text-primary);
-  background-color: var(--background);
+  font-family: var(--font-body);
+  font-size: calc(var(--text-body) * 1px);
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
+body.intro-active {
+  overflow: hidden;
+}
+
 img,
-picture,
-svg {
+video {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -123,157 +116,72 @@ button {
   font: inherit;
   color: inherit;
   background: none;
-  border: 0;
+  border: none;
   cursor: pointer;
 }
 
-ul,
-ol {
+ul, ol {
   list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: var(--font-display);
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-  color: var(--text-primary);
-  text-wrap: balance;
-}
-
+/* ── focus ── */
 :focus-visible {
-  outline: 2px solid var(--on-background);
+  outline: 2px solid var(--dot-green);
   outline-offset: 3px;
   border-radius: 4px;
 }
 
-::selection {
-  background: var(--on-background);
-  color: var(--background);
-}
-
-.container {
-  width: min(var(--max-w), 100% - 2 * var(--gutter));
-  margin-inline: auto;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-  border: 0;
-}
-
+/* ── skip link ── */
 .skip-link {
   position: fixed;
-  inset-block-start: -100px;
-  inset-inline-start: var(--gutter);
-  z-index: 1000;
+  top: -100%;
+  left: var(--gutter);
+  z-index: 9999;
+  padding: 8px 16px;
   background: var(--on-background);
   color: var(--background);
-  font-weight: 600;
-  padding: var(--space-1) var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 13px;
   border-radius: var(--radius-sm);
-  transition: inset-block-start 0.2s var(--ease-out);
+  transition: top 0.2s;
 }
 
 .skip-link:focus {
-  inset-block-start: var(--space-1);
+  top: var(--gutter);
 }
 
-.eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--text-muted);
+/* ── selection ── */
+::selection {
+  background: #f2f2f226;
+  color: var(--on-background);
 }
 
-.eyebrow::before {
-  content: "";
-  width: 28px;
-  height: 1px;
-  background: var(--border-strong);
-  flex: none;
+/* ── scrollbar (webkit) ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #f2f2f21a;
+  border-radius: 4px;
 }
 
-.section {
-  position: relative;
-  padding-block: var(--space-8);
+/* ── language utility ── */
+html[dir="rtl"] {
+  --gutter: clamp(20px, 4vw, 48px);
 }
 
-@media (max-width: 767px) {
-  .section {
-    padding-block: var(--space-7);
-  }
+/* ── font-feature ── */
+.font-display {
+  font-family: var(--font-display);
 }
 
-.section-title {
-  font-size: clamp(1.9rem, 4vw, 2.75rem);
-  font-weight: 700;
-  letter-spacing: -0.03em;
+.font-serif {
+  font-family: var(--font-serif);
 }
 
-.section-lead {
-  margin-block-start: var(--space-2);
-  max-width: 46ch;
-  color: var(--text-muted);
-  font-size: 1.05rem;
-}
-
-html.js.motion-ok.ui-ready [data-reveal] {
-  opacity: 0;
-  transform: translateY(26px);
-  transition: opacity 0.75s var(--ease-out), transform 0.75s var(--ease-out);
-  transition-delay: var(--rd, 0ms);
-  will-change: opacity, transform;
-}
-
-html.js.motion-ok.ui-ready [data-reveal="left"] {
-  transform: translateX(-30px);
-}
-
-html.js.motion-ok.ui-ready [data-reveal="right"] {
-  transform: translateX(30px);
-}
-
-html.js.motion-ok.ui-ready [data-reveal="scale"] {
-  transform: scale(0.94);
-}
-
-html.js.motion-ok.ui-ready [data-reveal].in {
-  opacity: 1;
-  transform: none;
-}
-
-html.js.motion-ok.ui-ready [data-intro] {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out);
-  transition-delay: var(--intro-delay, 0ms);
-  will-change: opacity, transform;
-}
-
-html.js.motion-ok.ui-ready [data-intro].is-in {
-  opacity: 1;
-  transform: none;
-}
-
-.grain {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.03;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
-  mix-blend-mode: overlay;
+.font-mono {
+  font-family: var(--font-mono);
 }

@@ -4,7 +4,7 @@ window.SITE = {
     altNames: "Teddz · Teddzfr · Frteddz",
     role: "Web Developer & One-Person Studio",
     baseUrl: "https://frteddz.github.io",
-    siteName: "Teddz — Portfolio",
+    siteName: "Teddz - Portfolio",
   },
   links: {
     github: "https://github.com/frteddz",
@@ -34,8 +34,8 @@ window.SITE = {
         },
         tag: { en: "GameWeb", ar: "لعبة ويب" },
         alt: {
-          en: "CrashOUT — a web game site, screenshot",
-          ar: "CrashOUT — موقع ألعاب ويب، لقطة شاشة",
+          en: "CrashOUT - a web game site, screenshot",
+          ar: "CrashOUT - موقع ألعاب ويب، لقطة شاشة",
         },
       },
       {
@@ -49,8 +49,8 @@ window.SITE = {
         },
         tag: { en: "Minecraft Utilities", ar: "أدوات ماينكرافت" },
         alt: {
-          en: "AetherCoreMc — Minecraft utility hub, screenshot",
-          ar: "AetherCoreMc — مركز أدوات ماينكرافت، لقطة شاشة",
+          en: "AetherCoreMc - Minecraft utility hub, screenshot",
+          ar: "AetherCoreMc - مركز أدوات ماينكرافت، لقطة شاشة",
         },
       },
       {
@@ -64,8 +64,8 @@ window.SITE = {
         },
         tag: { en: "Mini Games", ar: "ألعاب مصغّرة" },
         alt: {
-          en: "A Random Website — 99+ mini games, screenshot",
-          ar: "A Random Website — أكثر من 99 لعبة مصغّرة، لقطة شاشة",
+          en: "A Random Website - 99+ mini games, screenshot",
+          ar: "A Random Website - أكثر من 99 لعبة مصغّرة، لقطة شاشة",
         },
       },
       {
@@ -74,13 +74,13 @@ window.SITE = {
         url: "https://frteddz.github.io/Euthenia-Studio-Website/#",
         img: { webp: "euthenia-studio.webp", jpg: "euthenia-studio.jpg" },
         desc: {
-          en: "My personal software studio — simple, fast, privacy-first tools built by one dev.",
-          ar: "استوديو البرمجيات الشخصي الخاص بي — أدوات بسيطة وسريعة وخصوصية أولًا، من صنع مطوّر واحد.",
+          en: "My personal software studio - simple, fast, privacy-first tools built by one dev.",
+          ar: "استوديو البرمجيات الشخصي الخاص بي - أدوات بسيطة وسريعة وخصوصية أولًا، من صنع مطوّر واحد.",
         },
         tag: { en: "One-Person Studio", ar: "استوديو فردي" },
         alt: {
-          en: "Euthenia Studio — personal software studio, screenshot",
-          ar: "استوديو Euthenia — استوديو برمجيات شخصي، لقطة شاشة",
+          en: "Euthenia Studio - personal software studio, screenshot",
+          ar: "استوديو Euthenia - استوديو برمجيات شخصي، لقطة شاشة",
         },
       },
       {
@@ -109,8 +109,8 @@ window.SITE = {
         },
         tag: { en: "Web App", ar: "تطبيق ويب" },
         alt: {
-          en: "Body Massage — home service massage, screenshot",
-          ar: "تدليك الجسم — خدمة تدليك منزلية، لقطة شاشة",
+          en: "Body Massage - home service massage, screenshot",
+          ar: "تدليك الجسم - خدمة تدليك منزلية، لقطة شاشة",
         },
       },
       {
@@ -124,8 +124,8 @@ window.SITE = {
         },
         tag: { en: "Web App", ar: "تطبيق ويب" },
         alt: {
-          en: "ShalHome — a home of peace, screenshot",
-          ar: "ShalHome — منزل من السلام، لقطة شاشة",
+          en: "ShalHome - a home of peace, screenshot",
+          ar: "ShalHome - منزل من السلام، لقطة شاشة",
         },
       },
       {
@@ -139,8 +139,8 @@ window.SITE = {
         },
         tag: { en: "Staycation", ar: "عطلة" },
         alt: {
-          en: "A-J Staycation — S Residence Tower 1 · Pasay City, screenshot",
-          ar: "A-J Staycation — برج S Residence 1 · مدينة باساي، لقطة شاشة",
+          en: "A-J Staycation - S Residence Tower 1 · Pasay City, screenshot",
+          ar: "A-J Staycation - برج S Residence 1 · مدينة باساي، لقطة شاشة",
         },
       },
       {
@@ -154,8 +154,8 @@ window.SITE = {
         },
         tag: { en: "Terminal Assistant", ar: "مساعد طرفية" },
         alt: {
-          en: "JUNO — terminal assistant, screenshot",
-          ar: "JUNO — مساعد طرفية، لقطة شاشة",
+          en: "JUNO - terminal assistant, screenshot",
+          ar: "JUNO - مساعد طرفية، لقطة شاشة",
         },
       },
       {
@@ -169,8 +169,8 @@ window.SITE = {
         },
         tag: { en: "CLI Tool", ar: "أداة سطر أوامر" },
         alt: {
-          en: "Cedrus CLI — turn any web AI into a coding agent, screenshot",
-          ar: "Cedrus CLI — حوّل أي ذكاء اصطناعي إلى عميل برمجة، لقطة شاشة",
+          en: "Cedrus CLI - turn any web AI into a coding agent, screenshot",
+          ar: "Cedrus CLI - حوّل أي ذكاء اصطناعي إلى عميل برمجة، لقطة شاشة",
         },
       },
       {
@@ -179,13 +179,13 @@ window.SITE = {
         url: "https://frteddz.github.io/cedrus-site/",
         img: { webp: "cedrus-site.webp", jpg: "cedrus-site.jpg" },
         desc: {
-          en: "Cedrus — an AI assistant that runs as a terminal app. Read, write, search and talk to your project.",
-          ar: "Cedrus — مساعد ذكاء اصطناعي يعمل كتطبيق طرفية. اقرأ واطبع وابحث وتحدث مع مشروعك.",
+          en: "Cedrus - an AI assistant that runs as a terminal app. Read, write, search and talk to your project.",
+          ar: "Cedrus - مساعد ذكاء اصطناعي يعمل كتطبيق طرفية. اقرأ واطبع وابحث وتحدث مع مشروعك.",
         },
         tag: { en: "Showcase", ar: "عرض" },
         alt: {
-          en: "Cedrus — AI in the terminal, screenshot",
-          ar: "Cedrus — ذكاء اصطناعي في الطرفية، لقطة شاشة",
+          en: "Cedrus - AI in the terminal, screenshot",
+          ar: "Cedrus - ذكاء اصطناعي في الطرفية، لقطة شاشة",
         },
       },
       {
@@ -199,8 +199,8 @@ window.SITE = {
         },
         tag: { en: "Puzzle Game", ar: "لعبة ألغاز" },
         alt: {
-          en: "Kilter — falling block puzzle game, screenshot",
-          ar: "Kilter — لعبة ألغاز سقط كتل، لقطة شاشة",
+          en: "Kilter - falling block puzzle game, screenshot",
+          ar: "Kilter - لعبة ألغاز سقط كتل، لقطة شاشة",
         },
       },
       {
@@ -214,8 +214,8 @@ window.SITE = {
         },
         tag: { en: "Spinner", ar: "أداة دوران" },
         alt: {
-          en: "SpinDeck — spinner and roulette tool, screenshot",
-          ar: "SpinDeck — أداة دوران ودولاب حظ، لقطة شاشة",
+          en: "SpinDeck - spinner and roulette tool, screenshot",
+          ar: "SpinDeck - أداة دوران ودولاب حظ، لقطة شاشة",
         },
       },
       {
@@ -229,8 +229,8 @@ window.SITE = {
         },
         tag: { en: "Sound Tool", ar: "أداة صوت" },
         alt: {
-          en: "ToneTrail — tone and sound exploration tool, screenshot",
-          ar: "ToneTrail — أداة استكشاف النغمات والأصوات، لقطة شاشة",
+          en: "ToneTrail - tone and sound exploration tool, screenshot",
+          ar: "ToneTrail - أداة استكشاف النغمات والأصوات، لقطة شاشة",
         },
       },
       {
@@ -244,8 +244,8 @@ window.SITE = {
         },
         tag: { en: "Poster Generator", ar: "مُولّد ملصقات" },
         alt: {
-          en: "StarMap — night sky poster generator, screenshot",
-          ar: "StarMap — مُولّد ملصقات سماء ليلية، لقطة شاشة",
+          en: "StarMap - night sky poster generator, screenshot",
+          ar: "StarMap - مُولّد ملصقات سماء ليلية، لقطة شاشة",
         },
       },
       {
@@ -259,8 +259,8 @@ window.SITE = {
         },
         tag: { en: "Bubble Game", ar: "لعبة فقاعات" },
         alt: {
-          en: "PopCluster — bubble cluster popping game, screenshot",
-          ar: "PopCluster — لعبة فقاعات، لقطة شاشة",
+          en: "PopCluster - bubble cluster popping game, screenshot",
+          ar: "PopCluster - لعبة فقاعات، لقطة شاشة",
         },
       },
       {
@@ -274,8 +274,8 @@ window.SITE = {
         },
         tag: { en: "Audio Tool", ar: "أداة صوتية" },
         alt: {
-          en: "SoundLayers — audio layering tool, screenshot",
-          ar: "SoundLayers — أداة طبقة صوتية، لقطة شاشة",
+          en: "SoundLayers - audio layering tool, screenshot",
+          ar: "SoundLayers - أداة طبقة صوتية، لقطة شاشة",
         },
       },
       {
@@ -289,8 +289,8 @@ window.SITE = {
         },
         tag: { en: "Word Puzzle", ar: "لغز كلمات" },
         alt: {
-          en: "ClueGrid — word puzzle game, screenshot",
-          ar: "ClueGrid — لعبة ألغاز كلمات، لقطة شاشة",
+          en: "ClueGrid - word puzzle game, screenshot",
+          ar: "ClueGrid - لعبة ألغاز كلمات، لقطة شاشة",
         },
       },
       {
@@ -304,8 +304,8 @@ window.SITE = {
         },
         tag: { en: "Flow Game", ar: "لعبة تدفق" },
         alt: {
-          en: "FlowState — flow state game, screenshot",
-          ar: "FlowState — لعبة حالة التدفق، لقطة شاشة",
+          en: "FlowState - flow state game, screenshot",
+          ar: "FlowState - لعبة حالة التدفق، لقطة شاشة",
         },
       },
       {
@@ -319,8 +319,8 @@ window.SITE = {
         },
         tag: { en: "Trivia Quiz", ar: "أسئلة معلومات" },
         alt: {
-          en: "TriviaVoyager — trivia quiz game, screenshot",
-          ar: "TriviaVoyager — لعبة أسئلة معلومات عامة، لقطة شاشة",
+          en: "TriviaVoyager - trivia quiz game, screenshot",
+          ar: "TriviaVoyager - لعبة أسئلة معلومات عامة، لقطة شاشة",
         },
       },
       {
@@ -334,8 +334,8 @@ window.SITE = {
         },
         tag: { en: "Space Game", ar: "لعبة فضائية" },
         alt: {
-          en: "LastSignal — space-themed game, screenshot",
-          ar: "LastSignal — لعبة فضائية، لقطة شاشة",
+          en: "LastSignal - space-themed game, screenshot",
+          ar: "LastSignal - لعبة فضائية، لقطة شاشة",
         },
       },
       {
@@ -349,8 +349,8 @@ window.SITE = {
         },
         tag: { en: "Pixel Art", ar: "فن بيكسل" },
         alt: {
-          en: "PixelStudio — browser-based pixel art editor, screenshot",
-          ar: "PixelStudio — محرر فن بيكسل في المتصفح، لقطة شاشة",
+          en: "PixelStudio - browser-based pixel art editor, screenshot",
+          ar: "PixelStudio - محرر فن بيكسل في المتصفح، لقطة شاشة",
         },
       },
       {
@@ -364,8 +364,8 @@ window.SITE = {
         },
         tag: { en: "Image Tool", ar: "أداة صور" },
         alt: {
-          en: "PixelShrink — free batch image compression tool, screenshot",
-          ar: "PixelShrink — أداة ضغط صور مجانية بالجملة، لقطة شاشة",
+          en: "PixelShrink - free batch image compression tool, screenshot",
+          ar: "PixelShrink - أداة ضغط صور مجانية بالجملة، لقطة شاشة",
         },
       },
       {
@@ -379,8 +379,8 @@ window.SITE = {
         },
         tag: { en: "Study Planner", ar: "مُنظّم دراسة" },
         alt: {
-          en: "StudyFlow — free modern study planner, screenshot",
-          ar: "StudyFlow — مُنظّم دراسة حديث مجاني، لقطة شاشة",
+          en: "StudyFlow - free modern study planner, screenshot",
+          ar: "StudyFlow - مُنظّم دراسة حديث مجاني، لقطة شاشة",
         },
       },
       {
@@ -394,8 +394,8 @@ window.SITE = {
         },
         tag: { en: "QR Codes", ar: "أكواد QR" },
         alt: {
-          en: "QRFlow — free QR code generator and scanner, screenshot",
-          ar: "QRFlow — مُولّد ومسح أكواد QR مجاني، لقطة شاشة",
+          en: "QRFlow - free QR code generator and scanner, screenshot",
+          ar: "QRFlow - مُولّد ومسح أكواد QR مجاني، لقطة شاشة",
         },
       },
       {
@@ -409,8 +409,8 @@ window.SITE = {
         },
         tag: { en: "File Tool", ar: "أداة ملفات" },
         alt: {
-          en: "QuickRename — free bulk file renaming utility, screenshot",
-          ar: "QuickRename — أداة إعادة تسمية ملفات بالجملة مجانية، لقطة شاشة",
+          en: "QuickRename - free bulk file renaming utility, screenshot",
+          ar: "QuickRename - أداة إعادة تسمية ملفات بالجملة مجانية، لقطة شاشة",
         },
       },
       {
@@ -424,8 +424,8 @@ window.SITE = {
         },
         tag: { en: "Image Converter", ar: "محوّل صور" },
         alt: {
-          en: "PngForge — free online image converter, screenshot",
-          ar: "PngForge — محوّل صور مجاني عبر الإنترنت، لقطة شاشة",
+          en: "PngForge - free online image converter, screenshot",
+          ar: "PngForge - محوّل صور مجاني عبر الإنترنت، لقطة شاشة",
         },
       },
       {
@@ -439,8 +439,8 @@ window.SITE = {
         },
         tag: { en: "Disk Tool", ar: "أداة قرص" },
         alt: {
-          en: "FolderScope — free disk usage visualizer, screenshot",
-          ar: "FolderScope — مُظهر استخدام القرص المجاني، لقطة شاشة",
+          en: "FolderScope - free disk usage visualizer, screenshot",
+          ar: "FolderScope - مُظهر استخدام القرص المجاني، لقطة شاشة",
         },
       },
       {
@@ -454,8 +454,8 @@ window.SITE = {
         },
         tag: { en: "PDF Tool", ar: "أداة PDF" },
         alt: {
-          en: "PDFMerge — free online PDF toolkit, screenshot",
-          ar: "PDFMerge — مجموعة أدوات PDF مجانية عبر الإنترنت، لقطة شاشة",
+          en: "PDFMerge - free online PDF toolkit, screenshot",
+          ar: "PDFMerge - مجموعة أدوات PDF مجانية عبر الإنترنت، لقطة شاشة",
         },
       },
       {
@@ -469,8 +469,8 @@ window.SITE = {
         },
         tag: { en: "Color Picker", ar: "منتقي ألوان" },
         alt: {
-          en: "ColorSnap — free professional color picker, screenshot",
-          ar: "ColorSnap — منتقي ألوان احترافي مجاني، لقطة شاشة",
+          en: "ColorSnap - free professional color picker, screenshot",
+          ar: "ColorSnap - منتقي ألوان احترافي مجاني، لقطة شاشة",
         },
       },
       {
@@ -484,8 +484,8 @@ window.SITE = {
         },
         tag: { en: "Backup Tool", ar: "أداة نسخ احتياطي" },
         alt: {
-          en: "BackupBuddy — free browser-based backup utility, screenshot",
-          ar: "BackupBuddy — أداة نسخ احتياطي مجانية في المتصفح، لقطة شاشة",
+          en: "BackupBuddy - free browser-based backup utility, screenshot",
+          ar: "BackupBuddy - أداة نسخ احتياطي مجانية في المتصفح، لقطة شاشة",
         },
       },
       {
@@ -499,8 +499,8 @@ window.SITE = {
         },
         tag: { en: "Clipboard Manager", ar: "مدير حافظة" },
         alt: {
-          en: "ClipVault — free clipboard history manager, screenshot",
-          ar: "ClipVault — مدير سجل حافظة مجاني، لقطة شاشة",
+          en: "ClipVault - free clipboard history manager, screenshot",
+          ar: "ClipVault - مدير سجل حافظة مجاني، لقطة شاشة",
         },
       },
     ],
@@ -547,7 +547,7 @@ window.SITE = {
           ar: "متجر تطوير مستقل يقدم خدمات إعدادات متميزة وتجهيزات مخصصة.",
         },
         tag: { en: "Freelance", ar: "عمل حر" },
-        alt: { en: "Fiverr shop — abstract placeholder", ar: "متجر Fiverr — صورة تجريدية" },
+        alt: { en: "Fiverr shop - abstract placeholder", ar: "متجر Fiverr - صورة تجريدية" },
       },
     ],
     content: [
@@ -561,7 +561,7 @@ window.SITE = {
           ar: "إنتاج محتوى فيديو سريع الإيقاع، قوالب توزيع للمقاطع، ووسائط ألعاب.",
         },
         tag: { en: "Video Editing", ar: "مونتاج فيديو" },
-        alt: { en: "YouTube channel — abstract placeholder", ar: "قناة يوتيوب — صورة تجريدية" },
+        alt: { en: "YouTube channel - abstract placeholder", ar: "قناة يوتيوب - صورة تجريدية" },
       },
       {
         slug: "tiktok",
@@ -573,7 +573,7 @@ window.SITE = {
           ar: "وسائط ألعاب ومحتوى قصير عبر المنصات.",
         },
         tag: { en: "Short-form", ar: "محتوى قصير" },
-        alt: { en: "TikTok profile — abstract placeholder", ar: "ملف TikTok — صورة تجريدية" },
+        alt: { en: "TikTok profile - abstract placeholder", ar: "ملف TikTok - صورة تجريدية" },
       },
     ],
   },
@@ -605,20 +605,20 @@ window.SITE = {
       "m8": "Clean Code",
       "about.eyebrow": "About",
       "about.title": "Software that respects the person using it.",
-      "about.body1": "Euthenia Studio is my personal software studio — a place to publish the tools and projects I build. Everything here is made by me, Teddz, one developer at a time.",
+      "about.body1": "Euthenia Studio is my personal software studio - a place to publish the tools and projects I build. Everything here is made by me, Teddz, one developer at a time.",
       "about.body2": "I believe software should be simple, fast, and respect your privacy.",
       "v1.t": "Built by One Dev",
-      "v1.d": "Every project is crafted by Teddz — one developer, from idea to launch.",
+      "v1.d": "Every project is crafted by Teddz - one developer, from idea to launch.",
       "v2.t": "Privacy First",
       "v2.d": "Tools that run in your browser. No tracking, no data leaving your device.",
       "v3.t": "Always Free at Core",
       "v3.d": "The essential features of every tool stay free. No paywalls, no tricks.",
       "v4.t": "Open to Contributors",
-      "v4.d": "Want to publish a project here? My inbox is open — let's build together.",
+      "v4.d": "Want to publish a project here? My inbox is open - let's build together.",
       "services.eyebrow": "What I do",
       "services.title": "Four lanes, one developer.",
       "s1.t": "Web Development",
-      "s1.d": "Fast, accessible websites and web apps — simple by design.",
+      "s1.d": "Fast, accessible websites and web apps - simple by design.",
       "s2.t": "Asset & Resource Design",
       "s2.d": "Highly optimized PvP resource packs and UI layouts for competitive visibility and frame-rate.",
       "s3.t": "Dev & Freelance Services",
@@ -640,8 +640,8 @@ window.SITE = {
       "contact.sub": "Have a project, a server to set up, or just want to say hi? My inbox is open.",
       "contact.cta": "Email me",
       "footer.top": "Back to top",
-      "footer.line": "© {year} Teddz — built by one developer.",
-      "meta.title": "Teddz — Web Developer & One-Person Studio",
+      "footer.line": "© {year} Teddz - built by one developer.",
+      "meta.title": "Teddz - Web Developer & One-Person Studio",
       "meta.desc": "Simple, fast, privacy-first. Web developer and one-person studio building websites, tools, and games.",
     },
     ar: {
@@ -658,7 +658,7 @@ window.SITE = {
       "hero.altnames": "تيدز · Teddzfr · Frteddz",
       "hero.tagline.pre": "بسيطة، سريعة،",
       "hero.tagline.accent": "خصوصيتك أولًا.",
-      "hero.lead": "مطوّر ويب يدير استوديو فرديًا — أبني مواقع وأدوات وألعابًا بسيطة وسريعة وتحترم خصوصيتك.",
+      "hero.lead": "مطوّر ويب يدير استوديو فرديًا - أبني مواقع وأدوات وألعابًا بسيطة وسريعة وتحترم خصوصيتك.",
       "hero.cta.work": "شاهد أعمالي",
       "hero.cta.contact": "تواصل معي",
       "hero.scroll": "مرّر للاستكشاف",
@@ -671,20 +671,20 @@ window.SITE = {
       "m8": "كود نظيف",
       "about.eyebrow": "من أنا",
       "about.title": "برمجيات تحترم من يستخدمها.",
-      "about.body1": "استوديو Euthenia هو استوديو البرمجيات الشخصي الخاص بي — مكان أنشر فيه الأدوات والمشاريع التي أبنيها. كل شيء هنا صنعه أنا، Teddz، مطوّرًا واحدًا في كل مرة.",
+      "about.body1": "استوديو Euthenia هو استوديو البرمجيات الشخصي الخاص بي - مكان أنشر فيه الأدوات والمشاريع التي أبنيها. كل شيء هنا صنعه أنا، Teddz، مطوّرًا واحدًا في كل مرة.",
       "about.body2": "أؤمن أن البرمجيات يجب أن تكون بسيطة وسريعة وتحترم خصوصيتك.",
       "v1.t": "من صنع مطوّر واحد",
-      "v1.d": "كل مشروع يصنعه Teddz — مطوّر واحد، من الفكرة حتى الإطلاق.",
+      "v1.d": "كل مشروع يصنعه Teddz - مطوّر واحد، من الفكرة حتى الإطلاق.",
       "v2.t": "الخصوصية أولًا",
       "v2.d": "أدوات تعمل في متصفحك. لا تتبّع، ولا بيانات تغادر جهازك.",
       "v3.t": "مجاني في جوهره",
       "v3.d": "الميزات الأساسية لكل أداة تبقى مجانية دائمًا. لا جدران دفع ولا حيل.",
       "v4.t": "مفتوح للمساهمين",
-      "v4.d": "تريد نشر مشروع هنا؟ بريدي مفتوح — لنبنِ معًا.",
+      "v4.d": "تريد نشر مشروع هنا؟ بريدي مفتوح - لنبنِ معًا.",
       "services.eyebrow": "ماذا أفعل",
       "services.title": "أربعة مسارات، مطوّر واحد.",
       "s1.t": "تطوير الويب",
-      "s1.d": "مواقع وتطبيقات ويب سريعة وسهلة الوصول — بسيطة بالتصميم.",
+      "s1.d": "مواقع وتطبيقات ويب سريعة وسهلة الوصول - بسيطة بالتصميم.",
       "s2.t": "تصميم الأصول والموارد",
       "s2.d": "حزم موارد PvP محسّنة بعناية وتخطيطات واجهات للرؤية التنافسية وتحسين معدل الإطارات.",
       "s3.t": "التطوير والعمل الحر",
@@ -706,8 +706,8 @@ window.SITE = {
       "contact.sub": "لديك مشروع، أو سيرفر تريد تجهيزه، أو تريد فقط إلقاء التحية؟ بريدي مفتوح دائمًا.",
       "contact.cta": "راسلني",
       "footer.top": "العودة للأعلى",
-      "footer.line": "© {year} Teddz — بُني بواسطة مطوّر واحد.",
-      "meta.title": "تيدز — مطوّر ويب واستوديو فردي",
+      "footer.line": "© {year} Teddz - بُني بواسطة مطوّر واحد.",
+      "meta.title": "تيدز - مطوّر ويب واستوديو فردي",
       "meta.desc": "بسيطة، سريعة، خصوصيتك أولًا. مطوّر ويب يدير استوديو فرديًا يبني مواقع وأدوات وألعابًا.",
     },
   },

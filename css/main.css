@@ -261,7 +261,6 @@
   min-height: 600px;
   padding: 80px 56px 192px;
   overflow: hidden;
-  background: #101010b3;
 }
 
 .hero-text-content {
@@ -549,7 +548,7 @@
   position: relative;
   background: linear-gradient(190deg, var(--card-bg), var(--background));
   border: 1px solid var(--card-border);
-  border-radius: 0 var(--radius-inner) var(--radius-inner) var(--radius-inner);
+  border-radius: var(--radius-inner);
   overflow: hidden;
   transition: border-color 0.4s;
 }

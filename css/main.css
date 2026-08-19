@@ -264,7 +264,7 @@
 
 .text-hero-accent {
   font-weight: 600;
-  color: var(--text-primary);
+  color: var(--dot-green);
 }
 
 .hero-about-grid {

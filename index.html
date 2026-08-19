@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teddz — Web Developer & One-Person Studio</title>
   <meta name="description" content="Simple, fast, privacy-first. Web developer and one-person studio building websites, tools, and games.">
-  <meta name="theme-color" content="#0f0f11">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f0f11'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23ff6b35'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#f8f7f5">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23f8f7f5'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23101010'/%3E%3C/svg%3E">
 
   <link rel="canonical" href="https://frteddz.github.io/">
   <link rel="alternate" hreflang="en" href="https://frteddz.github.io/">
@@ -51,7 +51,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/main.css">
@@ -93,6 +93,7 @@
 
   <main id="main">
     <section class="hero" id="top" aria-label="Introduction">
+      <span class="grain" aria-hidden="true"></span>
       <span class="hero__ribbon" aria-hidden="true"></span>
       <span class="hero__word" aria-hidden="true">TEDDZ</span>
       <div class="container hero__grid">
@@ -118,9 +119,11 @@
           </div>
         </div>
         <figure class="hero__media" data-parallax="0.08">
-          <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="assets/images/hero/hero-poster.webp" aria-hidden="true" tabindex="-1">
-            <source src="assets/images/hero/video-hero1.mp4" type="video/mp4">
-          </video>
+          <div class="hero__media-frame">
+            <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="assets/images/hero/hero-poster.webp" aria-hidden="true" tabindex="-1">
+              <source src="assets/images/hero/video-hero1.mp4" type="video/mp4">
+            </video>
+          </div>
           <span class="hero__chip" data-intro>Euthenia Studio</span>
         </figure>
       </div>
@@ -147,6 +150,7 @@
     </div>
 
     <section class="about section" id="about">
+      <span class="grain" aria-hidden="true"></span>
       <div class="container about__grid">
         <figure class="about__media" data-parallax="0.05">
           <div class="about__media-frame" data-reveal="left">

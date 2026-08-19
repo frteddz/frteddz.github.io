@@ -23,51 +23,9 @@ window.SITE = {
   ],
   projects: {
     web: [
-      {
-        slug: "crashout",
-        name: "CrashOUT",
-        url: "https://dont-crashout.vercel.app/",
-        img: { webp: "crashout.webp", jpg: "crashout.jpg" },
-        desc: {
-          en: "The description is basically in the name.",
-          ar: "الوصف واضح من الاسم.",
-        },
-        tag: { en: "GameWeb", ar: "لعبة ويب" },
-        alt: {
-          en: "CrashOUT - a web game site, screenshot",
-          ar: "CrashOUT - موقع ألعاب ويب، لقطة شاشة",
-        },
-      },
-      {
-        slug: "aethercoremc",
-        name: "AetherCoreMc",
-        url: "https://aethercoremc.vercel.app/",
-        img: { webp: "aethercoremc.webp", jpg: "aethercoremc.jpg" },
-        desc: {
-          en: "A Minecraft utility hub with 15+ utilities.",
-          ar: "مركز أدوات لماينكرافت يضم أكثر من 15 أداة.",
-        },
-        tag: { en: "Minecraft Utilities", ar: "أدوات ماينكرافت" },
-        alt: {
-          en: "AetherCoreMc - Minecraft utility hub, screenshot",
-          ar: "AetherCoreMc - مركز أدوات ماينكرافت، لقطة شاشة",
-        },
-      },
-      {
-        slug: "a-random-website",
-        name: "A Random Website",
-        url: "https://a-random-website.vercel.app/",
-        img: { webp: "a-random-website.webp", jpg: "a-random-website.jpg" },
-        desc: {
-          en: "A website with 99+ random addictive mini games.",
-          ar: "موقع يضم أكثر من 99 لعبة مصغّرة عشوائية ومدمنة.",
-        },
-        tag: { en: "Mini Games", ar: "ألعاب مصغّرة" },
-        alt: {
-          en: "A Random Website - 99+ mini games, screenshot",
-          ar: "A Random Website - أكثر من 99 لعبة مصغّرة، لقطة شاشة",
-        },
-      },
+      
+      
+      
       {
         slug: "mghac",
         name: "Mabuhay Golden Harvest Agriculture Cooperative",
@@ -83,51 +41,9 @@ window.SITE = {
           ar: "تعاونية الحصاد الذهبي الزراعية، لقطة شاشة",
         },
       },
-      {
-        slug: "massage-site",
-        name: "Body Massage",
-        url: "https://massage-site-rho.vercel.app/",
-        img: { webp: "massage-site.webp", jpg: "massage-site.jpg" },
-        desc: {
-          en: "Home service massage.",
-          ar: "تدليك بخدمة منزلية.",
-        },
-        tag: { en: "Web App", ar: "تطبيق ويب" },
-        alt: {
-          en: "Body Massage - home service massage, screenshot",
-          ar: "تدليك الجسم - خدمة تدليك منزلية، لقطة شاشة",
-        },
-      },
-      {
-        slug: "shalhome",
-        name: "ShalHome",
-        url: "https://shalhome.vercel.app/",
-        img: { webp: "shalhome.webp", jpg: "shalhome.jpg" },
-        desc: {
-          en: "A home of peace.",
-          ar: "منزل من السلام.",
-        },
-        tag: { en: "Web App", ar: "تطبيق ويب" },
-        alt: {
-          en: "ShalHome - a home of peace, screenshot",
-          ar: "ShalHome - منزل من السلام، لقطة شاشة",
-        },
-      },
-      {
-        slug: "staycation",
-        name: "A-J Staycation",
-        url: "https://staycation-airbnb.vercel.app/",
-        img: { webp: "staycation.webp", jpg: "staycation.jpg" },
-        desc: {
-          en: "S Residence Tower 1 · Pasay City.",
-          ar: "برج S Residence 1 · مدينة باساي.",
-        },
-        tag: { en: "Staycation", ar: "عطلة" },
-        alt: {
-          en: "A-J Staycation - S Residence Tower 1 · Pasay City, screenshot",
-          ar: "A-J Staycation - برج S Residence 1 · مدينة باساي، لقطة شاشة",
-        },
-      },
+      
+      
+      
       {
         slug: "juno",
         name: "JUNO",
@@ -158,186 +74,18 @@ window.SITE = {
           ar: "Cedrus CLI - حوّل أي ذكاء اصطناعي إلى عميل برمجة، لقطة شاشة",
         },
       },
-      {
-        slug: "cedrus-site",
-        name: "Cedrus Site",
-        url: "https://frteddz.github.io/cedrus-site/",
-        img: { webp: "cedrus-site.webp", jpg: "cedrus-site.jpg" },
-        desc: {
-          en: "Cedrus - an AI assistant that runs as a terminal app. Read, write, search and talk to your project.",
-          ar: "Cedrus - مساعد ذكاء اصطناعي يعمل كتطبيق طرفية. اقرأ واطبع وابحث وتحدث مع مشروعك.",
-        },
-        tag: { en: "Showcase", ar: "عرض" },
-        alt: {
-          en: "Cedrus - AI in the terminal, screenshot",
-          ar: "Cedrus - ذكاء اصطناعي في الطرفية، لقطة شاشة",
-        },
-      },
-      {
-        slug: "pixelstudio",
-        name: "PixelStudio",
-        url: "https://frteddz.github.io/PixelStudio-web/",
-        img: { webp: "pixelstudio.webp", jpg: "pixelstudio.jpg" },
-        desc: {
-          en: "A browser-based pixel art editor with pen, fill, erase, and export.",
-          ar: "محرر فن بيكسل في المتصفح مع قلم وملء ومسح وتصدير.",
-        },
-        tag: { en: "Pixel Art", ar: "فن بيكسل" },
-        alt: {
-          en: "PixelStudio - browser-based pixel art editor, screenshot",
-          ar: "PixelStudio - محرر فن بيكسل في المتصفح، لقطة شاشة",
-        },
-      },
-      {
-        slug: "pixelshrink",
-        name: "PixelShrink",
-        url: "https://frteddz.github.io/PixelShrink-web/",
-        img: { webp: "pixelshrink.webp", jpg: "pixelshrink.jpg" },
-        desc: {
-          en: "Free batch image compression tool. Compress PNG, JPG, WebP images without losing quality. No uploads, no servers, 100% private.",
-          ar: "أداة ضغط صور مجانية بالجملة. اضغط صور PNG وJPG وWebP دون فقدان الجودة. بدون رفع، بدون خوادم، خصوصية 100%.",
-        },
-        tag: { en: "Image Tool", ar: "أداة صور" },
-        alt: {
-          en: "PixelShrink - free batch image compression tool, screenshot",
-          ar: "PixelShrink - أداة ضغط صور مجانية بالجملة، لقطة شاشة",
-        },
-      },
-      {
-        slug: "studyflow",
-        name: "StudyFlow",
-        url: "https://frteddz.github.io/StudyFlow-web/",
-        img: { webp: "studyflow.webp", jpg: "studyflow.jpg" },
-        desc: {
-          en: "Free modern study planner. Organize subjects, track tasks, manage study sessions with a Pomodoro timer, and plan your calendar.",
-          ar: "مُنظّم دراسة حديث مجاني. نظّم المواد، وتتبّع المهام، وأدر جلسات الدراسة مؤقت بومودورو، وخطط تقويمك.",
-        },
-        tag: { en: "Study Planner", ar: "مُنظّم دراسة" },
-        alt: {
-          en: "StudyFlow - free modern study planner, screenshot",
-          ar: "StudyFlow - مُنظّم دراسة حديث مجاني، لقطة شاشة",
-        },
-      },
-      {
-        slug: "qrflow",
-        name: "QRFlow",
-        url: "https://frteddz.github.io/QRFlow-web/",
-        img: { webp: "qrflow.webp", jpg: "qrflow.jpg" },
-        desc: {
-          en: "Free QR code generator and scanner. Create custom QR codes with colors and logos, or scan QR codes instantly.",
-          ar: "مُولّد ومسح أكواد QR مجاني. أنشئ أكواد QR مخصصة بألوان وشعارات، أو امسح أكواد QR فورًا.",
-        },
-        tag: { en: "QR Codes", ar: "أكواد QR" },
-        alt: {
-          en: "QRFlow - free QR code generator and scanner, screenshot",
-          ar: "QRFlow - مُولّد ومسح أكواد QR مجاني، لقطة شاشة",
-        },
-      },
-      {
-        slug: "quickrename",
-        name: "QuickRename",
-        url: "https://frteddz.github.io/QuickRename-web/",
-        img: { webp: "quickrename.webp", jpg: "quickrename.jpg" },
-        desc: {
-          en: "Free bulk file renaming utility. Rename multiple files at once with powerful rules and patterns.",
-          ar: "أداة إعادة تسمية ملفات بالجملة مجانية. أعد تسمية ملفات متعددة دفعة واحدة بقواعد وأنماط قوية.",
-        },
-        tag: { en: "File Tool", ar: "أداة ملفات" },
-        alt: {
-          en: "QuickRename - free bulk file renaming utility, screenshot",
-          ar: "QuickRename - أداة إعادة تسمية ملفات بالجملة مجانية، لقطة شاشة",
-        },
-      },
-      {
-        slug: "pngforge",
-        name: "PngForge",
-        url: "https://frteddz.github.io/PngForge-web/",
-        img: { webp: "pngforge.webp", jpg: "pngforge.jpg" },
-        desc: {
-          en: "Free online image converter. Convert PNG, JPG, WebP, and AVIF formats instantly in your browser.",
-          ar: "محوّل صور مجاني عبر الإنترنت. حوّل صيغ PNG وJPG وWebP وAVIF فورًا في متصفحك.",
-        },
-        tag: { en: "Image Converter", ar: "محوّل صور" },
-        alt: {
-          en: "PngForge - free online image converter, screenshot",
-          ar: "PngForge - محوّل صور مجاني عبر الإنترنت، لقطة شاشة",
-        },
-      },
-      {
-        slug: "folderscope",
-        name: "FolderScope",
-        url: "https://frteddz.github.io/FolderScope-web/",
-        img: { webp: "folderscope.webp", jpg: "folderscope.jpg" },
-        desc: {
-          en: "Free disk usage visualizer. Scan folders and visualize storage space usage with interactive charts.",
-          ar: "مُظهر استخدام القرص المجاني. امسح المجلدات وتصوّر استخدام مساحة التخزين برسوم بيانية تفاعلية.",
-        },
-        tag: { en: "Disk Tool", ar: "أداة قرص" },
-        alt: {
-          en: "FolderScope - free disk usage visualizer, screenshot",
-          ar: "FolderScope - مُظهر استخدام القرص المجاني، لقطة شاشة",
-        },
-      },
-      {
-        slug: "pdfmerge",
-        name: "PDFMerge",
-        url: "https://frteddz.github.io/PDFMerge-web/",
-        img: { webp: "pdfmerge.webp", jpg: "pdfmerge.jpg" },
-        desc: {
-          en: "Free online PDF toolkit. Merge, split, rotate, and rearrange PDF pages in your browser.",
-          ar: "مجموعة أدوات PDF مجانية عبر الإنترنت. ادمج وافصل ولفّ وأعد ترتيب صفحات PDF في متصفحك.",
-        },
-        tag: { en: "PDF Tool", ar: "أداة PDF" },
-        alt: {
-          en: "PDFMerge - free online PDF toolkit, screenshot",
-          ar: "PDFMerge - مجموعة أدوات PDF مجانية عبر الإنترنت، لقطة شاشة",
-        },
-      },
-      {
-        slug: "colorsnap",
-        name: "ColorSnap",
-        url: "https://frteddz.github.io/ColorSnap-web/",
-        img: { webp: "colorsnap.webp", jpg: "colorsnap.jpg" },
-        desc: {
-          en: "Free professional color picker. Pick, save, and organize colors with hex, RGB, HSL values. Create and export color palettes.",
-          ar: "منتقي ألوان احترافي مجاني. اختر واحفظ ونظّم الألوان بقيم hex وRGB وHSL. أنشئ وصدّر لوحات ألوان.",
-        },
-        tag: { en: "Color Picker", ar: "منتقي ألوان" },
-        alt: {
-          en: "ColorSnap - free professional color picker, screenshot",
-          ar: "ColorSnap - منتقي ألوان احترافي مجاني، لقطة شاشة",
-        },
-      },
-      {
-        slug: "backupbuddy",
-        name: "BackupBuddy",
-        url: "https://frteddz.github.io/BackupBuddy-web/",
-        img: { webp: "backupbuddy.webp", jpg: "backupbuddy.jpg" },
-        desc: {
-          en: "Free browser-based backup utility. Manage, schedule, and restore your browser data backups.",
-          ar: "أداة نسخ احتياطي مجانية في المتصفح. أدِر وجدول واستعد نسخ احتياطية لبيانات المتصفح.",
-        },
-        tag: { en: "Backup Tool", ar: "أداة نسخ احتياطي" },
-        alt: {
-          en: "BackupBuddy - free browser-based backup utility, screenshot",
-          ar: "BackupBuddy - أداة نسخ احتياطي مجانية في المتصفح، لقطة شاشة",
-        },
-      },
-      {
-        slug: "clipvault",
-        name: "ClipVault",
-        url: "https://frteddz.github.io/ClipVault-web/",
-        img: { webp: "clipvault.webp", jpg: "clipvault.jpg" },
-        desc: {
-          en: "Free clipboard history manager for your browser. Save, search, organize, and pin clipboard items with categories.",
-          ar: "مدير سجل الحافظة المجاني لمتصفحك. احفظ وابحث ونظّم وثبّت عناصر الحافظة بالفئات.",
-        },
-        tag: { en: "Clipboard Manager", ar: "مدير حافظة" },
-        alt: {
-          en: "ClipVault - free clipboard history manager, screenshot",
-          ar: "ClipVault - مدير سجل حافظة مجاني، لقطة شاشة",
-        },
-      },
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     ],
     asset: [
       {

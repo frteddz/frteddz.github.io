@@ -48,9 +48,9 @@
   --text-caption: 12;
 
   /* ── radii ── */
-  --radius: 24px;
-  --radius-inner: 16px;
-  --radius-sm: 12px;
+  --radius: 32px;
+  --radius-inner: 22px;
+  --radius-sm: 16px;
   --radius-pill: 999px;
 
   /* ── shadows ── */

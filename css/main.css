@@ -78,7 +78,7 @@
   font-size: 14px;
   line-height: 1;
   padding: 12px 20px;
-  border-radius: 20px;
+  border-radius: 26px;
   position: relative;
   z-index: 1;
   color: var(--text-muted);
@@ -93,7 +93,7 @@
 .nav-indicator-pill {
   position: absolute;
   height: 32px;
-  border-radius: 16px;
+  border-radius: 22px;
   background: var(--glass-010);
   transition: left 0.5s var(--ease-io), width 0.5s var(--ease-io);
   pointer-events: none;
@@ -262,15 +262,6 @@
   padding: 80px 56px 192px;
   overflow: hidden;
   background: #101010b3;
-}
-
-.hero-media-bg {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  background:
-    radial-gradient(ellipse 80% 60% at 50% 40%, #2a2a2a 0%, transparent 70%),
-    linear-gradient(180deg, #1a1a1a 0%, #141414 60%, #101010 100%);
 }
 
 .hero-text-content {

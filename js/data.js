@@ -9,7 +9,7 @@ window.SITE = {
   links: {
     github: "https://github.com/frteddz",
     x: "https://x.com/teddzfr",
-    youtube: "https://www.youtube.com/@frteddz",
+    youtube: "https://www.youtube.com/@teddzfr",
     instagram: "https://www.instagram.com/teddzfr/",
     tiktok: "https://www.tiktok.com/@teddz.fr",
     email: "mailto:teddzfr@proton.me",
@@ -131,7 +131,7 @@ window.SITE = {
       {
         slug: "youtube",
         name: "YouTube",
-        url: "https://www.youtube.com/@frteddz",
+        url: "https://www.youtube.com/@teddzfr",
         img: null,
         desc: {
           en: "Producing fast-paced video content, clip pacing templates, and gaming media.",

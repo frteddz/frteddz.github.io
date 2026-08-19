@@ -263,14 +263,19 @@
 }
 
 .text-hero-accent {
-  font-family: "Dancing Script", var(--font-display);
-  font-weight: 600;
-  letter-spacing: 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
   background: linear-gradient(90deg, var(--dot-red), var(--dot-green), var(--dot-blue));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 16px rgba(244, 107, 93, 0.5)) drop-shadow(0 0 32px rgba(87, 195, 83, 0.4)) drop-shadow(0 0 48px rgba(91, 141, 239, 0.4));
+  filter: drop-shadow(0 0 8px rgba(244, 107, 93, 0.4)) drop-shadow(0 0 16px rgba(87, 195, 83, 0.35)) drop-shadow(0 0 24px rgba(91, 141, 239, 0.35));
+}
+
+.text-hero-pre {
+  font-family: var(--font-accent);
+  font-weight: 800;
 }
 
 .hero-about-grid {

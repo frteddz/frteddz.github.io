@@ -34,6 +34,8 @@
 
   /* ── fonts ── */
   --font-display: "Albert Sans", "Inter", "Cairo", system-ui, -apple-system, sans-serif;
+  --font-serif: "Gloock", "Georgia", serif;
+  --font-accent: "Poppins", "Albert Sans", "Inter", "Cairo", sans-serif;
   --font-mono: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
   --font-body: "Inter", "Cairo", system-ui, sans-serif;
 

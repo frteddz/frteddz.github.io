@@ -895,6 +895,7 @@ body:not(.intro-active) #cursor-glow {
 .icon-modrinth { -webkit-mask-image: url("../assets/icons/modrinth.svg"); mask-image: url("../assets/icons/modrinth.svg"); }
 .icon-fiverr { -webkit-mask-image: url("../assets/icons/fiverr.svg"); mask-image: url("../assets/icons/fiverr.svg"); }
 .icon-builtbybit { -webkit-mask-image: url("../assets/icons/builtbybit.svg"); mask-image: url("../assets/icons/builtbybit.svg"); }
+.icon-kofi { -webkit-mask-image: url("../assets/icons/ko-fi.svg"); mask-image: url("../assets/icons/ko-fi.svg"); }
 .icon-protonmail { -webkit-mask-image: url("../assets/icons/protonmail.svg"); mask-image: url("../assets/icons/protonmail.svg"); }
 .icon-folder { -webkit-mask-image: url("../assets/icons/folder.svg"); mask-image: url("../assets/icons/folder.svg"); }
 

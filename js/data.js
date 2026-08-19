@@ -105,14 +105,26 @@ window.SITE = {
       {
         slug: "fiverr",
         name: "Fiverr",
-        url: null,
-        img: null,
+        url: "https://fiverr.com/teddzfr",
+        img: { webp: null, jpg: "fiverr.png" },
         desc: {
           en: "Freelance development shop offering premium configuration services and custom setups.",
           ar: "متجر تطوير مستقل يقدم خدمات إعدادات متميزة وتجهيزات مخصصة.",
         },
         tag: { en: "Freelance", ar: "عمل حر" },
-        alt: { en: "Fiverr shop - abstract placeholder", ar: "متجر Fiverr - صورة تجريدية" },
+        alt: { en: "Fiverr shop - Teddz", ar: "متجر Fiverr - Teddz" },
+      },
+      {
+        slug: "kofi",
+        name: "Ko-fi",
+        url: "https://ko-fi.com/majdsafi",
+        img: { webp: null, jpg: "ko-fi.png" },
+        desc: {
+          en: "Support my work by buying me a coffee.",
+          ar: "ادعم عملي بدعوتي على فنجان قهوة.",
+        },
+        tag: { en: "Support", ar: "دعم" },
+        alt: { en: "Ko-fi page - Teddz", ar: "صفحة Ko-fi - Teddz" },
       },
     ],
     content: [

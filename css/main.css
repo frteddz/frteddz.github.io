@@ -263,7 +263,9 @@
 }
 
 .text-hero-accent {
+  font-family: "Dancing Script", var(--font-display);
   font-weight: 600;
+  letter-spacing: 0;
   background: linear-gradient(90deg, var(--dot-red), var(--dot-green), var(--dot-blue));
   -webkit-background-clip: text;
   background-clip: text;

@@ -484,33 +484,6 @@
   transition: border-color 0.4s;
 }
 
-/* ── folder tab ── */
-.project-folder-tab {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  position: relative;
-  z-index: 2;
-  margin-left: -10px;
-  padding: 12px 22px 10px 12px;
-  background: linear-gradient(190deg, #2d2d2d, #232323);
-  border: 1px solid var(--card-border);
-  border-bottom: none;
-  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-  box-shadow: 0 -8px 20px #00000040;
-}
-
-.project-folder-tab .icon {
-  width: 15px;
-  height: 15px;
-  color: var(--text-dim);
-}
-
-.project-folder-tab .text-projectcard-tag {
-  font-size: 12px;
-  letter-spacing: 1px;
-}
-
 /* ── folder body ── */
 .project-folder-body {
   position: relative;

@@ -134,20 +134,6 @@
     });
   }
 
-  /* ── GLARE MOUSE-TRACKING ──────────────────────────────── */
-  function initGlare() {
-    if (!finePointer) return;
-    document.querySelectorAll(".project-card-outline").forEach(function (card) {
-      card.addEventListener("mousemove", function (e) {
-        var r = card.getBoundingClientRect();
-        var x = ((e.clientX - r.left) / r.width) * 100;
-        var y = ((e.clientY - r.top) / r.height) * 100;
-        card.style.setProperty("--gx", x + "%");
-        card.style.setProperty("--gy", y + "%");
-      });
-    });
-  }
-
   /* ── CURSOR GLOW ───────────────────────────────────────── */
   function initCursor() {
     var glow = document.getElementById("cursor-glow");
@@ -190,7 +176,6 @@
     initNavSpy();
     initReveals();
     initIntro();
-    initGlare();
     initCursor();
     initYear();
   });

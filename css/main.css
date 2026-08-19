@@ -204,8 +204,6 @@
   position: relative;
   border-radius: var(--radius-inner);
   border: 1px solid var(--glass-030);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
   overflow: hidden;
 }
 
@@ -256,6 +254,18 @@
   opacity: 0.4;
 }
 
+.window-bar-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
 .window-content {
   position: relative;
   min-height: 600px;
@@ -278,17 +288,9 @@
   margin-bottom: 32px;
 }
 
-.text-hero-serif {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-weight: 400;
-  background: linear-gradient(90deg, #0057ff, #ff5a00, #fff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: none;
-  filter: drop-shadow(0 0 18px rgba(0, 87, 255, 0.45)) drop-shadow(0 0 42px rgba(255, 90, 0, 0.35)) drop-shadow(0 0 80px rgba(255, 255, 255, 0.18));
-  position: relative;
+.text-hero-accent {
+  font-weight: 600;
+  color: var(--text-primary);
 }
 
 .hero-about-grid {
@@ -360,6 +362,19 @@
   transform: translate(2px, -2px);
 }
 
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-glass:active {
+  background: var(--glass-015);
+}
+
+.btn-primary:active {
+  background: var(--glass-040);
+  color: var(--background);
+}
+
 .window-grain {
   position: absolute;
   inset: 0;
@@ -368,18 +383,6 @@
   pointer-events: none;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.5'/%3E%3C/svg%3E");
   background-size: 128px 128px;
-}
-
-.hero-bg-gradient {
-  position: absolute;
-  bottom: -60px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 600px;
-  height: 300px;
-  background: radial-gradient(ellipse, #f2f2f20d 0%, transparent 70%);
-  pointer-events: none;
-  z-index: 0;
 }
 
 .hero-noise {
@@ -632,46 +635,6 @@
 
 .project-thumbnail--placeholder {
   background: var(--surface-raised);
-}
-
-.project-card-colour {
-  height: 5px;
-  width: 100%;
-  background: var(--accent, var(--glass-020));
-  opacity: 0.7;
-  transition: opacity 0.3s;
-}
-
-.project-card:hover .project-card-colour {
-  opacity: 1;
-}
-
-/* ── GLARE EFFECT ── */
-.glare-wrapper {
-  position: absolute;
-  inset: 0;
-  border-radius: var(--radius);
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 10;
-}
-
-.glare-wrapper::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  background: radial-gradient(
-    600px circle at var(--gx, 50%) var(--gy, 50%),
-    #f2f2f20d,
-    transparent 40%
-  );
-  opacity: 0;
-  transition: opacity 0.4s;
-}
-
-.project-card-outline:hover .glare-wrapper::after {
-  opacity: 1;
 }
 
 /* ── ABOUT ───────────────────────────────────────────────── */
@@ -982,6 +945,18 @@ body:not(.intro-active) #cursor-glow {
   height: 16px;
 }
 
+/* ── FOCUS VISIBLE ───────────────────────────────────────── */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--on-background);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.lang-toggle button:focus-visible {
+  outline-offset: -2px;
+}
+
 /* ── SKIP LINK ── */
 .skip-link {
   position: fixed;
@@ -1097,7 +1072,7 @@ body:not(.intro-active) #cursor-glow {
 }
 
 /* ── RTL ─────────────────────────────────────────────────── */
-html[dir="rtl"] .text-hero-serif {
+html[dir="rtl"] .text-hero-accent {
   direction: rtl;
 }
 

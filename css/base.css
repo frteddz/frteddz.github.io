@@ -24,7 +24,7 @@
   /* ── text ── */
   --text-primary: var(--on-background);
   --text-muted: var(--glass-050);
-  --text-dim: var(--glass-040);
+  --text-dim: #f2f2f27a;
 
   /* ── accents ── */
   --dot-red: #f46b5d;
@@ -33,7 +33,6 @@
 
   /* ── fonts ── */
   --font-display: "Albert Sans", "Inter", "Cairo", system-ui, -apple-system, sans-serif;
-  --font-serif: "Gloock", "Georgia", serif;
   --font-mono: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
   --font-body: "Inter", "Cairo", system-ui, sans-serif;
 
@@ -220,10 +219,6 @@ html[dir="rtl"] {
 /* ── font-feature ── */
 .font-display {
   font-family: var(--font-display);
-}
-
-.font-serif {
-  font-family: var(--font-serif);
 }
 
 .font-mono {

@@ -27,6 +27,21 @@ window.SITE = {
       
       
 {
+        slug: "umbra",
+        name: "Umbra",
+        url: "https://frteddz.github.io/umbra/",
+        img: null,
+        desc: {
+          en: "A privacy-first desktop browser. No account, no telemetry, no ads.",
+          ar: "متصفح سطح مكتب يضع الخصوصية أولاً. بدون حساب، بدون تتبع، بدون إعلانات.",
+        },
+        tag: { en: "Pre-release", ar: "إصدار تجريبي" },
+        alt: {
+          en: "Umbra - privacy-first browser, abstract placeholder",
+          ar: "Umbra - متصفح الخصوصية، صورة تجريدية",
+        },
+      },
+      {
         slug: "juno",
         name: "JUNO",
         url: "https://frteddz.github.io/JUNO/",

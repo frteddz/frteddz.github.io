@@ -26,25 +26,7 @@ window.SITE = {
       
       
       
-      {
-        slug: "mghac",
-        name: "Mabuhay Golden Harvest Agriculture Cooperative",
-        url: "https://mghac.vercel.app/index.html",
-        img: { webp: "mghac.webp", jpg: "mghac.jpg" },
-        desc: {
-          en: "A community-based agriculture cooperative cultivating sustainable communities, empowering farmers, and inspiring the next generation.",
-          ar: "تعاونية زراعية مجتمعية تزرع مجتمعات مستدامة، وتمكّن المزارعين، وتُلهم الجيل القادم.",
-        },
-        tag: { en: "Cooperative", ar: "تعاونية" },
-        alt: {
-          en: "Mabuhay Golden Harvest Agriculture Cooperative, screenshot",
-          ar: "تعاونية الحصاد الذهبي الزراعية، لقطة شاشة",
-        },
-      },
-      
-      
-      
-      {
+{
         slug: "juno",
         name: "JUNO",
         url: "https://frteddz.github.io/JUNO/",

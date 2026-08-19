@@ -264,7 +264,11 @@
 
 .text-hero-accent {
   font-weight: 600;
-  color: var(--dot-green);
+  background: linear-gradient(90deg, var(--dot-red), var(--dot-green), var(--dot-blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 16px rgba(244, 107, 93, 0.5)) drop-shadow(0 0 32px rgba(87, 195, 83, 0.4)) drop-shadow(0 0 48px rgba(91, 141, 239, 0.4));
 }
 
 .hero-about-grid {

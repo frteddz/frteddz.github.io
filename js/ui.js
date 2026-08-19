@@ -6,17 +6,30 @@
   var finePointer = window.matchMedia("(pointer: fine)").matches;
   var motionOK = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* ── NAV PILLS ─────────────────────────────────────────── */
-  function initNavPill() {
+  /* ── NAV ────────────────────────────────────────────────── */
+  function initNav() {
     var pill = document.querySelector(".nav-indicator-pill");
     var links = document.querySelectorAll(".nav-link");
     if (!pill || !links.length) return;
 
+    var PAD = 8;
+
+    function textRect(el) {
+      var range = document.createRange();
+      range.selectNodeContents(el);
+      return range.getBoundingClientRect();
+    }
+
     function movePillTo(link) {
-      var rect = link.getBoundingClientRect();
+      var t = textRect(link);
       var parent = link.parentElement.getBoundingClientRect();
-      pill.style.left = (rect.left - parent.left + 6) + "px";
-      pill.style.width = (rect.width - 0) + "px";
+      pill.style.left = (t.left - parent.left - PAD) + "px";
+      pill.style.width = (t.width + PAD * 2) + "px";
+    }
+
+    function moveToActive() {
+      var cur = document.querySelector(".nav-link.active");
+      if (cur) movePillTo(cur);
     }
 
     var active = document.querySelector(".nav-link.active");
@@ -35,53 +48,38 @@
       });
 
       link.addEventListener("mouseenter", function () { movePillTo(link); });
-      link.addEventListener("mouseleave", function () {
-        var cur = document.querySelector(".nav-link.active");
-        if (cur) movePillTo(cur);
-      });
+      link.addEventListener("mouseleave", moveToActive);
     });
 
-    window.addEventListener("resize", function () {
-      var cur = document.querySelector(".nav-link.active");
-      if (cur) movePillTo(cur);
-    });
-  }
-
-  /* ── NAV SPY ───────────────────────────────────────────── */
-  function initNavSpy() {
-    var links = document.querySelectorAll('.nav-link[href^="#"]');
-    var pill = document.querySelector(".nav-indicator-pill");
     var sections = [];
     links.forEach(function (link) {
       var target = document.querySelector(link.getAttribute("href"));
       if (target) sections.push({ link: link, target: target });
     });
-    if (!sections.length || !("IntersectionObserver" in window)) return;
 
-    function movePillTo(link) {
-      if (!pill) return;
-      var rect = link.getBoundingClientRect();
-      var parent = link.parentElement.getBoundingClientRect();
-      pill.style.left = (rect.left - parent.left + 6) + "px";
-      pill.style.width = rect.width + "px";
+    if (sections.length && "IntersectionObserver" in window) {
+      var io = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+            links.forEach(function (l) { l.classList.remove("active"); });
+            var match = sections.find(function (s) { return s.target === entry.target; });
+            if (match) {
+              match.link.classList.add("active");
+              movePillTo(match.link);
+            }
+          });
+        },
+        { rootMargin: "-45% 0px -50% 0px", threshold: 0 }
+      );
+      sections.forEach(function (s) { io.observe(s.target); });
     }
 
-    var io = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (!entry.isIntersecting) return;
-          links.forEach(function (l) { l.classList.remove("active"); });
-          var match = sections.find(function (s) { return s.target === entry.target; });
-          if (match) {
-            match.link.classList.add("active");
-            movePillTo(match.link);
-          }
-        });
-      },
-      { rootMargin: "-45% 0px -50% 0px", threshold: 0 }
-    );
-
-    sections.forEach(function (s) { io.observe(s.target); });
+    window.addEventListener("resize", moveToActive);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(moveToActive);
+    }
+    window.addEventListener("load", moveToActive);
   }
 
   /* ── REVEALS ───────────────────────────────────────────── */
@@ -172,8 +170,7 @@
 
   /* ── BOOT ──────────────────────────────────────────────── */
   document.addEventListener("DOMContentLoaded", function () {
-    initNavPill();
-    initNavSpy();
+    initNav();
     initReveals();
     initIntro();
     initCursor();

@@ -76,8 +76,8 @@ window.SITE = {
         url: "https://modrinth.com/user/teddz",
         img: { webp: "modrinth.webp", jpg: "modrinth.jpg" },
         desc: {
-          en: "Developing highly optimized PvP resource packs and UI layouts focused on competitive visibility and frame-rate optimization.",
-          ar: "تطوير حزم موارد PvP محسّنة بعناية وتخطيطات واجهات تركّز على الرؤية التنافسية وتحسين معدل الإطارات.",
+          en: "38 Minecraft projects on Modrinth - PvP resource packs, totems, UI layouts, and performance modpacks with 14k+ downloads.",
+          ar: "38 مشروع ماينكرافت على Modrinth - حزم موارد PvP، التمائم، تخطيطات الواجهات، وحزم تعديلات الأداء مع أكثر من 14 ألف تنزيل.",
         },
         tag: { en: "Texturing · Optimization", ar: "تلوين · تحسين" },
         alt: {

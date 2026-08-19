@@ -491,8 +491,8 @@
   gap: 8px;
   position: relative;
   z-index: 2;
-  margin-left: 28px;
-  padding: 12px 22px 10px;
+  margin-left: -10px;
+  padding: 12px 22px 10px 12px;
   background: linear-gradient(190deg, #2d2d2d, #232323);
   border: 1px solid var(--card-border);
   border-bottom: none;

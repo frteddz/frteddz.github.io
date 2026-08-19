@@ -132,32 +132,6 @@
   background: var(--glass-010);
 }
 
-.lang-toggle {
-  display: flex;
-  border-radius: var(--radius);
-  border: 1px solid var(--glass-010);
-  overflow: hidden;
-}
-
-.lang-toggle button {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 500;
-  padding: 7px 12px;
-  color: var(--text-muted);
-  transition: background 0.3s, color 0.3s;
-}
-
-.lang-toggle button[aria-pressed="true"] {
-  background: var(--glass-010);
-  color: var(--text-primary);
-}
-
-.lang-toggle button:hover:not([aria-pressed="true"]) {
-  background: var(--glass-005);
-  color: var(--text-primary);
-}
-
 .nav-contact-btn {
   display: inline-flex;
   align-items: center;
@@ -951,10 +925,6 @@ button:focus-visible {
   outline: 2px solid var(--on-background);
   outline-offset: 3px;
   border-radius: 6px;
-}
-
-.lang-toggle button:focus-visible {
-  outline-offset: -2px;
 }
 
 /* ── SKIP LINK ── */

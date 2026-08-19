@@ -263,9 +263,9 @@
 }
 
 .text-hero-accent {
-  font-family: var(--font-accent);
-  font-weight: 700;
-  font-style: normal;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
   background: linear-gradient(90deg, var(--dot-red), var(--dot-green), var(--dot-blue));
   -webkit-background-clip: text;
   background-clip: text;
@@ -275,7 +275,7 @@
 
 .text-hero-pre {
   font-family: var(--font-accent);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .hero-about-grid {

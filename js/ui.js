@@ -22,9 +22,13 @@
 
     function movePillTo(link) {
       var t = textRect(link);
-      var parent = link.parentElement.getBoundingClientRect();
-      pill.style.left = (t.left - parent.left - PAD) + "px";
-      pill.style.width = (t.width + PAD * 2) + "px";
+      var parent = link.parentElement;
+      var pr = parent.getBoundingClientRect();
+      var border = parseFloat(getComputedStyle(parent).borderLeftWidth) || 0;
+      var left = Math.round(t.left - pr.left - PAD - border);
+      var width = Math.round(t.width + PAD * 2);
+      pill.style.left = left + "px";
+      pill.style.width = width + "px";
     }
 
     function moveToActive() {

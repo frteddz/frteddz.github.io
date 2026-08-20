@@ -220,7 +220,7 @@
         videoUrl = await uploadFile(videoFile, folder + "/video" + ext(videoFile), cfg.storageBucket || "review-files");
       }
 
-      const { error } = await supabase.rpc("submit_review", {
+      const { data, error } = await supabase.rpc("submit_review", {
         p_name: name,
         p_rating: rating,
         p_description: descEl.value.trim(),
@@ -231,8 +231,27 @@
 
       if (error) throw error;
 
+      // Send moderation email via edge function
+      try {
+        const modalRes = await fetch(`${cfg.supabaseUrl}/functions/v1/moderate-review`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            type: "INSERT",
+            table: "reviews",
+            record: { id: data.id }
+          })
+        });
+        const modalData = await modalRes.json();
+        console.log("Moderation email triggered:", modalRes.status);
+      } catch (err) {
+        console.error("Moderation email error:", err);
+        // Don't fail the whole submission if email fails
+      }
+
       form.hidden = true;
       successEl.hidden = false;
+      successEl.dataset.reviewId = data.id;
     } catch (err) {
       console.error("review submit error:", err);
       show(formError, "Something went wrong sending your review. Please try again.");

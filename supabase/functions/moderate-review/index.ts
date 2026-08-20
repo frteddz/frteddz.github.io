@@ -21,11 +21,14 @@ function mailLink(action: string, reviewId: string, token: string) {
 async function sendModerationEmail(reviewId: string) {
   const { data: review } = await supabase
     .from("reviews")
-    .select("name, rating, description")
+    .select("name, rating, description, admin_token")
     .eq("id", reviewId)
     .single();
 
-  if (!review) return new Response("review not found", { status: 404 });
+  if (!review) {
+    console.error("review not found, id:", reviewId);
+    return null;
+  }
 
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
@@ -46,10 +49,14 @@ async function sendModerationEmail(reviewId: string) {
     }),
   });
 
-  if (!res.ok) {
-    const body = await res.text();
-    console.error("resend error:", res.status, body);
-  }
+  const resBody = await res.text();
+  const result = {
+    status: res.status,
+    ok: res.ok,
+    body: resBody,
+  };
+  console.log("resend result:", JSON.stringify(result));
+  return result;
 }
 
 serve(async (req) => {
@@ -79,8 +86,16 @@ serve(async (req) => {
   }
 
   const payload = await req.json();
+  console.log("webhook payload:", JSON.stringify(payload).substring(0, 200));
   if (payload.type === "INSERT" && payload.table === "reviews") {
-    await sendModerationEmail(payload.record.id);
+    const emailResult = await sendModerationEmail(payload.record.id);
+    // Return the email result so the caller can see it
+    if (emailResult) {
+      return new Response(
+        JSON.stringify({ emailSent: emailResult.ok, status: emailResult.status, body: emailResult.body }),
+        { headers: { "Content-Type": "application/json" } }
+      );
+    }
   }
 
   return new Response("ok");

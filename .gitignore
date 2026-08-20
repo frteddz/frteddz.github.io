@@ -4,3 +4,4 @@ npm-debug.log*
 .DS_Store
 perryw-2023.webflow.io/
 assets/images/projects/Rouba-*
+supabase/.env.secrets

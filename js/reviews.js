@@ -143,6 +143,29 @@
 
   descEl.addEventListener("input", checkDesc);
 
+  function t(key) {
+    const lang = document.documentElement.lang || "en";
+    const dict = (window.SITE && window.SITE.t && window.SITE.t[lang]) || {};
+    return dict[key];
+  }
+
+  document.querySelectorAll(".file-upload-input").forEach((input) => {
+    input.addEventListener("change", () => {
+      const nameEl = document.querySelector('[data-file-name="' + input.id + '"]');
+      if (!nameEl) return;
+      const files = Array.from(input.files || []);
+      if (!files.length) {
+        nameEl.textContent = input.multiple ? t("review.noFiles") || "No files chosen" : t("review.noFile") || "No file chosen";
+        return;
+      }
+      if (files.length === 1) {
+        nameEl.textContent = files[0].name;
+      } else {
+        nameEl.textContent = files.length + " " + (t("review.filesChosen") || "files chosen");
+      }
+    });
+  });
+
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     show(formError, null);

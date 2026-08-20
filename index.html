@@ -246,17 +246,32 @@
 
               <div class="review-field">
                 <label for="review-avatar" data-i18n="review.avatar">Profile logo (optional, up to 5 MB)</label>
-                <input type="file" id="review-avatar" name="avatar" accept="image/png,image/jpeg,image/webp,image/svg+xml">
+                <label class="file-upload" for="review-avatar">
+                  <svg class="file-upload-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                  <span class="file-upload-btn" data-i18n="review.chooseFile">Choose File</span>
+                  <span class="file-upload-name" data-file-name="review-avatar">No file chosen</span>
+                </label>
+                <input type="file" id="review-avatar" name="avatar" accept="image/png,image/jpeg,image/webp,image/svg+xml" class="file-upload-input">
               </div>
 
               <div class="review-field">
                 <label for="review-images" data-i18n="review.images">Attach images (optional, up to 5 MB each)</label>
-                <input type="file" id="review-images" name="images" accept="image/png,image/jpeg,image/webp" multiple>
+                <label class="file-upload" for="review-images">
+                  <svg class="file-upload-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                  <span class="file-upload-btn" data-i18n="review.chooseFiles">Choose Files</span>
+                  <span class="file-upload-name" data-file-name="review-images">No files chosen</span>
+                </label>
+                <input type="file" id="review-images" name="images" accept="image/png,image/jpeg,image/webp" multiple class="file-upload-input">
               </div>
 
               <div class="review-field">
                 <label for="review-video" data-i18n="review.video">Attach a video (optional, up to 10 MB)</label>
-                <input type="file" id="review-video" name="video" accept="video/mp4,video/webm,video/quicktime">
+                <label class="file-upload" for="review-video">
+                  <svg class="file-upload-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                  <span class="file-upload-btn" data-i18n="review.chooseFile">Choose File</span>
+                  <span class="file-upload-name" data-file-name="review-video">No file chosen</span>
+                </label>
+                <input type="file" id="review-video" name="video" accept="video/mp4,video/webm,video/quicktime" class="file-upload-input">
               </div>
 
               <div class="review-error" id="form-error" hidden></div>

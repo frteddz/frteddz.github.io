@@ -1047,6 +1047,7 @@ body:not(.intro-active) #cursor-glow {
 .icon-builtbybit { -webkit-mask-image: url("../assets/icons/builtbybit.svg"); mask-image: url("../assets/icons/builtbybit.svg"); }
 .icon-kofi { -webkit-mask-image: url("../assets/icons/ko-fi.svg"); mask-image: url("../assets/icons/ko-fi.svg"); }
 .icon-umbra { -webkit-mask-image: url("../assets/icons/umbra.svg"); mask-image: url("../assets/icons/umbra.svg"); background-color: #fb6a34; }
+.icon-protonmail { -webkit-mask-image: url("../assets/icons/protonmail.svg"); mask-image: url("../assets/icons/protonmail.svg"); }
 
 .chip-socials .icon,
 .footer-link .icon {

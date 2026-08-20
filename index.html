@@ -213,6 +213,57 @@
             <div class="text-testimonial-quote" data-i18n="testimonials.note1">Building my first client projects.</div>
             <div class="text-testimonial-note2" data-i18n="testimonials.note2">I'm currently working with a few businesses to build websites for free while I grow my portfolio. Testimonials will appear here as projects are completed.</div>
           </div>
+          <div class="reviews-list" id="reviews-list"></div>
+
+          <div class="review-form-wrapper">
+            <div class="text-review-form-title" data-i18n="review.formTitle">Leave a review</div>
+            <div class="text-review-form-sub" data-i18n="review.formSub">Worked with me? Tell others what I helped you with. Your review appears after I approve it.</div>
+
+            <form id="review-form" class="review-form" novalidate>
+              <div class="review-field">
+                <label for="review-name" data-i18n="review.name">Your name</label>
+                <input type="text" id="review-name" name="name" maxlength="60" required>
+              </div>
+
+              <div class="review-field">
+                <label data-i18n="review.rating">Your rating</label>
+                <div class="star-picker" id="star-picker" role="radiogroup" aria-label="Rating">
+                  <button type="button" class="star" data-value="1" aria-label="1 star">★</button>
+                  <button type="button" class="star" data-value="2" aria-label="2 stars">★</button>
+                  <button type="button" class="star" data-value="3" aria-label="3 stars">★</button>
+                  <button type="button" class="star" data-value="4" aria-label="4 stars">★</button>
+                  <button type="button" class="star" data-value="5" aria-label="5 stars">★</button>
+                </div>
+                <div class="review-error" id="rating-error" hidden></div>
+              </div>
+
+              <div class="review-field">
+                <label for="review-desc" data-i18n="review.desc">What did I help you with?</label>
+                <textarea id="review-desc" name="description" rows="6" placeholder="Describe the project, what I did for you, and the result."></textarea>
+                <div class="review-char" id="review-char"></div>
+                <div class="review-error" id="desc-error" hidden></div>
+              </div>
+
+              <div class="review-field">
+                <label for="review-avatar" data-i18n="review.avatar">Profile logo (optional, up to 5 MB)</label>
+                <input type="file" id="review-avatar" name="avatar" accept="image/png,image/jpeg,image/webp,image/svg+xml">
+              </div>
+
+              <div class="review-field">
+                <label for="review-images" data-i18n="review.images">Attach images (optional, up to 5 MB each)</label>
+                <input type="file" id="review-images" name="images" accept="image/png,image/jpeg,image/webp" multiple>
+              </div>
+
+              <div class="review-field">
+                <label for="review-video" data-i18n="review.video">Attach a video (optional, up to 10 MB)</label>
+                <input type="file" id="review-video" name="video" accept="video/mp4,video/webm,video/quicktime">
+              </div>
+
+              <div class="review-error" id="form-error" hidden></div>
+              <button type="submit" class="review-submit" id="review-submit" data-i18n="review.submit">Submit review</button>
+              <div class="review-success" id="review-success" hidden data-i18n="review.success">Thanks! Your review was sent and will appear once approved.</div>
+            </form>
+          </div>
         </div>
       </section>
 
@@ -350,7 +401,10 @@
     <div id="cursor-glow" aria-hidden="true"></div>
 
     <script src="js/data.js"></script>
+    <script src="js/config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="js/i18n.js"></script>
     <script src="js/ui.js"></script>
+    <script src="js/reviews.js"></script>
   </body>
 </html>
